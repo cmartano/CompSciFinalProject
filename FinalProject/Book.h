@@ -16,9 +16,30 @@ private:
     LinkedNode* waitingList;
 
 
-
-
 public:
+
+    /**
+     * Returns the wantValue of the title entered by the user.
+     * @param title
+     * @return the wantValue of the title entered by the user.
+     */
+    int getWantValue(std::string title);
+
+    /**
+     * Returns the haveValue of the title entered by the user.
+     * @param title
+     * @return the haveValue of the title entered by the user.
+     */
+    int getHaveVlue(std::string title);
+
+
+
+    //    I don't know if we need this, i just put it here in case.
+    /**
+     * Prints out information of the book in the format: {title, haveValue, wantValue}
+     * @return
+     */
+    std::string toString();
 
 };
 
