@@ -6,6 +6,8 @@
 #define COMPSCIFINALPROJECT_BOOK_H
 
 #include "LinkedNode.h"
+#include <iostream>
+
 
 
 class Book{
@@ -30,9 +32,7 @@ public:
      * @param title
      * @return the haveValue of the title entered by the user.
      */
-    int getHaveVlue(std::string title);
-
-
+    int getHaveValue(std::string title);
 
     //    I don't know if we need this, i just put it here in case.
     /**
