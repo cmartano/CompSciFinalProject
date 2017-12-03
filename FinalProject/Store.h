@@ -1,0 +1,8 @@
+//
+// Created by Harrison Kesel on 12/3/17.
+//
+
+#ifndef COMPSCIFINALPROJECT_STORE_H
+#define COMPSCIFINALPROJECT_STORE_H
+
+#endif //COMPSCIFINALPROJECT_STORE_H

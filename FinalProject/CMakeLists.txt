@@ -3,5 +3,9 @@ project(FinalProject)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES
+        main.cpp
+        Book.cpp
+        Store.cpp
+        )
 add_executable(FinalProject ${SOURCE_FILES})
