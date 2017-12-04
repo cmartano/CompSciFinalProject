@@ -7,7 +7,7 @@
 
 #endif //COMPSCIFINALPROJECT_INVENTORY_H
 
-class customerWaiting{
+class CustomerWaiting{
 private:
     std::string contactPref;
     std::string email;
@@ -15,6 +15,11 @@ private:
     std::string name;
 
 public:
+
+    CustomerWaiting();
+    CustomerWaiting(const CustomerWaiting& customerWaitingToCopy);
+    CustomerWaiting& operator = (const CustomerWaiting& customerWaitingToCopy);
+    ~CustomerWaiting();
 
     /**
      * returns the preferred contact method of the customer
