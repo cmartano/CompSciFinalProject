@@ -1,4 +1,4 @@
-//
+ //
 // Created by Harrison Kesel on 12/3/17.
 //
 
@@ -21,21 +21,28 @@ public:
      * @param name
      * @return the contact preference of the customer
      */
-    std::string getContactPref(std::string name);
+    std::string getContactPref();
 
     /**
      * returns the email of the customer
      * @param name
      * @return returns the email of the customer
      */
-    std::string getEmail(std::string name);
+    std::string getEmail();
 
     /**
      * returns the phone number of the customer
      * @param name
      * @return the phone number of the customer
      */
-    std::string getPhoneNumber(std::string name);
+    std::string getPhoneNumber();
+
+    /**
+   * returns the name of the customer
+   * @param name
+   * @return the name of the customer
+   */
+    std::string getName();
 
     //I am not sure if we need this but i added it just in case.
     /**
