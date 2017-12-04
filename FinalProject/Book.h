@@ -21,6 +21,11 @@ private:
 
 public:
 
+    Book();
+    Book(const Book& bookToCopy);
+    Book& operator = (const Book& bookToCopy);
+    ~Book();
+
     /**
      * Returns the wantValue of the title entered by the user.
      * @param title
