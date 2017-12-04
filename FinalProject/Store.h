@@ -23,16 +23,49 @@ public:
     Store& operator = (const Store& storeToCopy);
     ~Store();
 
+
+
     /**
-     * add a book to the inventory of books, it needs a title, haveValue, and wantValue to create the book.
-     * It will also add the title of the book to the titleList and increase the title count by 1.
-     * It also needs to check if this title already exists, so binFind this title from the titleList to see if it already exists
-     * If it already exists, throw exception, book already exists.
+     * prints a summary of all available functions
+     * the command would be: H
+     */
+    void help();
+
+    /**
+     * provides a summary of the information of a given title
+     * it should print: {Title, haveValue, wantValue. WaitingList: ___, ___, ...}
+     * (it should print the waiting list in order of queue)
+     */
+    void inquire(std::string title);
+
+    /**
+     * print an alphabetical list of all the titles
+     */
+    void list();
+
+    /**
+     * Add a book to the inventory. Prompt for initial want value and have value. If the title already
+     * exists, inform the user and print the information for that title.
      * @param title
      * @param haveValue
      * @param wantValue
      */
-    void addBook(std::string title, int haveValue, int wantValue);
+    void add(std::string title, int haveValue, int wantValue);
+
+    /**
+     * Modify the want value for the specified title. Display current want and have values,
+     * and prompt user for new want value.
+     * @param title
+     */
+    void modify(std::string title);
+
+    /**
+     * Decrease the count for the specified title by 1.  If the title doesn't exist yet, it should be added.
+     * If the title is sold out (or didn't exist), prompt the user for the buyer's information and enter
+     * them on the wait list for that title.
+     * @param title
+     */
+    void sell(std::string title);
 
 
 };
