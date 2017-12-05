@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject
+CMAKE_SOURCE_DIR = /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,87 +123,6 @@ FinalProject/fast:
 	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/build
 .PHONY : FinalProject/fast
 
-Book.o: Book.cpp.o
-
-.PHONY : Book.o
-
-# target to build an object file
-Book.cpp.o:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Book.cpp.o
-.PHONY : Book.cpp.o
-
-Book.i: Book.cpp.i
-
-.PHONY : Book.i
-
-# target to preprocess a source file
-Book.cpp.i:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Book.cpp.i
-.PHONY : Book.cpp.i
-
-Book.s: Book.cpp.s
-
-.PHONY : Book.s
-
-# target to generate assembly for a file
-Book.cpp.s:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Book.cpp.s
-.PHONY : Book.cpp.s
-
-Store.o: Store.cpp.o
-
-.PHONY : Store.o
-
-# target to build an object file
-Store.cpp.o:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Store.cpp.o
-.PHONY : Store.cpp.o
-
-Store.i: Store.cpp.i
-
-.PHONY : Store.i
-
-# target to preprocess a source file
-Store.cpp.i:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Store.cpp.i
-.PHONY : Store.cpp.i
-
-Store.s: Store.cpp.s
-
-.PHONY : Store.s
-
-# target to generate assembly for a file
-Store.cpp.s:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Store.cpp.s
-.PHONY : Store.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +132,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... FinalProject"
-	@echo "... Book.o"
-	@echo "... Book.i"
-	@echo "... Book.s"
-	@echo "... Store.o"
-	@echo "... Store.i"
-	@echo "... Store.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

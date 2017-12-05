@@ -6,6 +6,7 @@
 #define COMPSCIFINALPROJECT_STORE_H
 
 
+#include <string>
 #include "LinkedNode.h"
 #include <iostream>
 
