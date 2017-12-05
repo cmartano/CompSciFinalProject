@@ -24,8 +24,6 @@ public:
     Store& operator = (const Store& storeToCopy);
     ~Store();
 
-
-
     /**
      * prints a summary of all available functions
      * the command would be: H
