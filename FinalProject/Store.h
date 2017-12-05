@@ -13,7 +13,7 @@
 class Store{
 
 private:
-    Inventory myinventory;
+    Inventory myInventory;
     int titlesCount;
     std::string* arrayOfTitles;
 
