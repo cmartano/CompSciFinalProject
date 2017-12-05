@@ -13,7 +13,7 @@
 class Store{
 
 private:
-    LinkedNode* inventory;
+    Inventory myinventory;
     int titlesCount;
     std::string* arrayOfTitles;
 
