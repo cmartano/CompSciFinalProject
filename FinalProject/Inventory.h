@@ -9,10 +9,8 @@
 class Inventory{
 public:
 
-    Store();
-    Store(const Store& storeToCopy);
-    Store& operator = (const Store& storeToCopy);
-    ~Store();
+
+    virtual ~Inventory{};
 
 
 
@@ -20,19 +18,19 @@ public:
      * prints a summary of all available functions
      * the command would be: H
      */
-    void help();
+    virtual void help() = 0;
 
     /**
      * provides a summary of the information of a given title
      * it should print: {Title, haveValue, wantValue. WaitingList: ___, ___, ...}
      * (it should print the waiting list in order of queue)
      */
-    void inquire(std::string title);
+    virtual void inquire(std::string title) = 0;
 
     /**
      * print an alphabetical list of all the titles
      */
-    void list();
+    virtual void list() = 0;
 
     /**
      * Add a book to the inventory. Prompt for initial want value and have value. If the title already
@@ -41,14 +39,14 @@ public:
      * @param haveValue
      * @param wantValue
      */
-    void add(std::string title, int haveValue, int wantValue);
+    virtual void add(std::string title, int haveValue, int wantValue) = 0;
 
     /**
      * Modify the want value for the specified title. Display current want and have values,
      * and prompt user for new want value.
      * @param title
      */
-    void modify(std::string title);
+    virtual void modify(std::string title) = 0;
 
     /**
      * Decrease the count for the specified title by 1.  If the title doesn't exist yet, it should be added.
@@ -56,7 +54,7 @@ public:
      * them on the wait list for that title.
      * @param title
      */
-    void sell(std::string title);
+    virtual void sell(std::string title) = 0;
 
     /**
      * Create a bulk purchase order for additional books based on a comparison of the have and want values
@@ -64,7 +62,7 @@ public:
      * the have value will be equal to the want value.
      * @param title
      */
-    void order(std::string title);
+    virtual void order(std::string title) = 0;
 
     /**
      * Take information from a file listing the delivery shipment of books.
@@ -81,7 +79,7 @@ public:
      * and leaves the book by the counter. The book is then considered sold
      * (the person should be removed from wait list).
      */
-    void delivery();
+    virtual void delivery() = 0;
 
     /**
      * Write a return invoice to a file specifying all books to be returned.
@@ -90,15 +88,15 @@ public:
      * the want value, and the output file should then give the list of books
      * to take off the shelf and return.
      */
-    void returnInvoice();
+    virtual void returnInvoice() = 0;
 
     /**
      * Save the inventory and wait lists in a file and terminate execution.
      */
-    void quit();
+    virtual void quit() = 0;
 
 };
-};
+
 
 #endif //FINALPROJECT_INVENTORY_H
 
