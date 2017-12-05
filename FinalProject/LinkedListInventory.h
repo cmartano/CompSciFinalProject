@@ -88,7 +88,7 @@ public:
      * and leaves the book by the counter. The book is then considered sold
      * (the person should be removed from wait list).
      */
-     void delivery() = 0;
+     void delivery();
 
     /**
      * Write a return invoice to a file specifying all books to be returned.
@@ -108,3 +108,4 @@ public:
 };
 
 #endif //FINALPROJECT_LINKEDLISTINVENTORY_H
+
