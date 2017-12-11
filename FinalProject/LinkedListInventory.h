@@ -8,8 +8,8 @@
 class LinkedListInventory : public Inventory{
 
 private:
-    LinkedNode* first;
-    LinkedNode* last;
+    Book* first;
+    Book* last;
     int bookCount;
 
 public:

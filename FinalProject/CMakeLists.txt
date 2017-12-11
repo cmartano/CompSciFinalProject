@@ -9,5 +9,7 @@ set(SOURCE_FILES
         Store.cpp
         CustomerWaiting.h
         CustomerWaiting.cpp
-        cmake-build-debug/CustomerWaiting.cpp Inventory.h)
+        cmake-build-debug/CustomerWaiting.cpp Inventory.h
+        LinkedNode.cpp
+        LinkedNode.h)
 add_executable(FinalProject ${SOURCE_FILES})
