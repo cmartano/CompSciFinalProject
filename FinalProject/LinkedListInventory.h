@@ -5,11 +5,13 @@
 #ifndef FINALPROJECT_LINKEDLISTINVENTORY_H
 #define FINALPROJECT_LINKEDLISTINVENTORY_H
 
+#include "LinkedNode.h"
+
 class LinkedListInventory : public Inventory{
 
 private:
-    Book* first;
-    Book* last;
+    LinkedNode* first;
+    LinkedNode* last;
     int bookCount;
 
 public:

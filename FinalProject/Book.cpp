@@ -4,3 +4,12 @@
 
 #include "Book.h"
 
+Book::Book(std::string title, int haveValue, int wantValue) {
+
+    title= title;
+    wantValue=wantValue;
+    haveValue;
+};
+
+
+

@@ -3,27 +3,14 @@
 //
 
 #include "LinkedListInventory.h"
+#include "Book.h"
 
 
-void add(std::string title, int haveValue, int wantValue) {
-    while (first != nullptr){
-        if (first.get
+void LinkedListInventory:: add(std::string title, int haveValue, int wantValue) {
+    if (first!= nullptr){
+        first=new LinkedNode(new Book(title,haveValue,wantValue));
     }
-    else {
-        int count = 0;
-        LinkedNode *before = first;
-        while (count != index - 1) {
-            before = before->getNext();
-            if (before == nullptr) {
-                throw std::out_of_range("invalid index");
-            }
-            count += 1;
-        }
-        LinkedNode *newNode = new LinkedNode(itemToAdd);
-        LinkedNode *after = before->getNext();
-        before->setNext(newNode);
-        newNode->setNext(after);
-    }
+
 }
 
 
