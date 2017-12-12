@@ -3,14 +3,70 @@
 //
 
 #include "Book.h"
+#include "LinkedQueue.h"
+#include "CustomerWaiting.h"
 
 Book::Book(std::string title, int haveValue, int wantValue) {
 
     this-> title;
     this->wantValue;
     this->haveValue;
-    waitingList;
-};
+    LinkedQueue waitingList;
+}
+
+Book::Book(const Book& BookToCopy){
+    //TODO
+}
+
+Book& Book::operator = (const Book& bookToCopy){
+    //TODO
+
+    return *this;
+}
+
+Book::~Book(){
+    //TODO
+
+}
+
+int Book::getWantValue() {
+    return this->wantValue;
+}
+
+int Book::getHaveValue() {
+    return this->haveValue;
+}
+
+std::string Book::toString(){
+    //TODO...maybe, needs to be tested
+
+    std::string myString = "{ Title: ";
+    myString += this->title;
+    myString += ", WantValue: ";
+    myString += this->wantValue;
+    myString += ", HaveValue: ";
+    myString += this->haveValue;
+    myString += "}";
+
+
+    return myString;
+
+}
+
+void Book::addCustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email){
+    //TODO...maybe, needs to be tested
+
+    CustomerWaiting personToAdd = CustomerWaiting(name, contactPref, phoneNum, email);
+    waitingList.enqueue(personToAdd);
+
+
+}
+
+std::string Book::getCustomerWaitingList(){
+    //TODO...maybe, needs to be tested
+
+    return waitingList.dequeue();
+}
 
 
 

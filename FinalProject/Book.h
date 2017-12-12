@@ -6,6 +6,7 @@
 #define COMPSCIFINALPROJECT_BOOK_H
 
 #include "LinkedNode.h"
+#include "LinkedQueue.h"
 #include <iostream>
 
 
@@ -16,7 +17,7 @@ private:
     std::string title;
     int wantValue;
     int haveValue;
-    LinkedNode* waitingList;
+    LinkedQueue waitingList;
 
 
 public:
@@ -31,14 +32,14 @@ public:
      * @param title
      * @return the wantValue of the title entered by the user.
      */
-    int getWantValue(std::string title);
+    int getWantValue();
 
     /**
      * Returns the haveValue of the title entered by the user.
      * @param title
      * @return the haveValue of the title entered by the user.
      */
-    int getHaveValue(std::string title);
+    int getHaveValue();
 
     //    I don't know if we need this, i just put it here in case.
     /**
@@ -46,6 +47,10 @@ public:
      * @return
      */
     std::string toString();
+
+    void addCustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email);
+
+    std::string getCustomerWaitingList();
 
 };
 

@@ -11,13 +11,13 @@ class CustomerWaiting{
 private:
     std::string contactPref;
     std::string email;
-    std::string phoneNumber;
+    std::string phoneNum;
     std::string name;
 
 
 public:
 
-    CustomerWaiting();
+    CustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email);
     CustomerWaiting(const CustomerWaiting& customerWaitingToCopy);
     CustomerWaiting& operator = (const CustomerWaiting& customerWaitingToCopy);
     ~CustomerWaiting();

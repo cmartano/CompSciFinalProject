@@ -14,6 +14,7 @@ private:
     LinkedNode* last;
     int bookCount;
 
+
 public:
 
 

@@ -2,6 +2,7 @@
 // Created by Toby Dragon on 10/24/17.
 //
 #include "LinkedQueue.h"
+#include "CustomerWaiting.h"
 
 //Creates an empty queue
 LinkedQueue::LinkedQueue(){
@@ -37,7 +38,7 @@ LinkedQueue::~LinkedQueue(){
 
 
 //adds an item to the end of the queue
-void LinkedQueue::enqueue(std::string item){
+void LinkedQueue::enqueue(CustomerWaiting item){
     LinkedNode* newNode = new LinkedNode(item);
     //if front is nullptr, end should be nullptr too
     if (front == nullptr){
