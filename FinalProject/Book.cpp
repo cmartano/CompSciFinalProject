@@ -6,9 +6,10 @@
 
 Book::Book(std::string title, int haveValue, int wantValue) {
 
-    title= title;
-    wantValue=wantValue;
-    haveValue;
+    this-> title;
+    this->wantValue;
+    this->haveValue;
+    waitingList;
 };
 
 
