@@ -13,11 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75f22176-5b42-4b96-9a00-7609a8bc7954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book.cpp" afterPath="$PROJECT_DIR$/Book.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book.h" afterPath="$PROJECT_DIR$/Book.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomerWaiting.cpp" afterPath="$PROJECT_DIR$/CustomerWaiting.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomerWaiting.h" afterPath="$PROJECT_DIR$/CustomerWaiting.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedListInventory.h" afterPath="$PROJECT_DIR$/LinkedListInventory.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,10 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Inventory.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Inventory.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Book.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
+            <state relative-caret-position="600">
               <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding>
                 <element signature="e#48#65#0" expanded="true" />
@@ -120,16 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListInventory.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -251,7 +246,7 @@
       <workItem from="1513045470961" duration="364000" />
       <workItem from="1513049363154" duration="1388000" />
       <workItem from="1513091319244" duration="15000" />
-      <workItem from="1513112674964" duration="2789000" />
+      <workItem from="1513112674964" duration="3646000" />
     </task>
     <task id="LOCAL-00001" summary="i added //hey">
       <created>1511887801252</created>
@@ -323,11 +318,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513050354534</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="I have tried making book more complete, changed linkedQueue to work with CustomerWaiting objects rather than strings, and added some thing in CustomerWaiting, inventory, and linkedlistInventory">
+      <created>1513115803265</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1513115803265</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12938000" />
+    <option name="totallyTimeSpent" value="13795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -387,7 +389,8 @@
     <MESSAGE value="I changed delivery to not have = 0" />
     <MESSAGE value="I changed myinventory to myInventory" />
     <MESSAGE value="I added my LinkedQueue files to use for the waiting list for the book class." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added my LinkedQueue files to use for the waiting list for the book class." />
+    <MESSAGE value="I have tried making book more complete, changed linkedQueue to work with CustomerWaiting objects rather than strings, and added some thing in CustomerWaiting, inventory, and linkedlistInventory" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have tried making book more complete, changed linkedQueue to work with CustomerWaiting objects rather than strings, and added some thing in CustomerWaiting, inventory, and linkedlistInventory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -707,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
@@ -793,11 +788,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Book.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
+        <state relative-caret-position="600">
           <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding>
             <element signature="e#48#65#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
