@@ -42,37 +42,7 @@ public:
      */
     void list();
 
-    /**
-     * Add a book to the inventory. Prompt for initial want value and have value. If the title already
-     * exists, inform the user and print the information for that title.
-     * @param title
-     * @param haveValue
-     * @param wantValue
-     */
-    void add(std::string title, int haveValue, int wantValue);
 
-    /**
-     * Modify the want value for the specified title. Display current want and have values,
-     * and prompt user for new want value.
-     * @param title
-     */
-    void modify(std::string title);
-
-    /**
-     * Decrease the count for the specified title by 1.  If the title doesn't exist yet, it should be added.
-     * If the title is sold out (or didn't exist), prompt the user for the buyer's information and enter
-     * them on the wait list for that title.
-     * @param title
-     */
-    void sell(std::string title);
-
-    /**
-     * Create a bulk purchase order for additional books based on a comparison of the have and want values
-     * in the inventory. For each book, enough books should be ordered so that, when the order is received,
-     * the have value will be equal to the want value.
-     * @param title
-     */
-    void order(std::string title);
 
     /**
      * Take information from a file listing the delivery shipment of books.
