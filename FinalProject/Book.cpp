@@ -14,8 +14,11 @@ Book::Book(std::string title, int haveValue, int wantValue) {
     LinkedQueue waitingList;
 }
 
-Book::Book(const Book& BookToCopy){
-    //TODO
+Book::Book(const Book& bookToCopy){
+    title = bookToCopy.title;
+    wantValue = bookToCopy.wantValue;
+    haveValue = bookToCopy.haveValue;
+    waitingList = bookToCopy.waitingList;
 }
 
 Book& Book::operator = (const Book& bookToCopy){
@@ -58,7 +61,6 @@ void Book::addCustomerWaiting(std::string name, std::string contactPref, std::st
 
     CustomerWaiting personToAdd = CustomerWaiting(name, contactPref, phoneNum, email);
     waitingList.enqueue(personToAdd);
-
 
 }
 

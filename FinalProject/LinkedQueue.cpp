@@ -63,8 +63,7 @@ std::string LinkedQueue::dequeue(){
     }
 
 
-    std::string frontToReturn = front->getItem();
-
+    CustomerWaiting frontToReturn = front->getItem();
 
     front = front->getNext();
 
