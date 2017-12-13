@@ -13,8 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75f22176-5b42-4b96-9a00-7609a8bc7954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedListInventory.cpp" afterPath="$PROJECT_DIR$/LinkedListInventory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedListInventory.h" afterPath="$PROJECT_DIR$/LinkedListInventory.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +47,7 @@
       <file leaf-file-name="LinkedListInventory.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="737">
               <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="e#48#80#0" expanded="true" />
@@ -474,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513139981286</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="working on linked list inventory. also need to add some setters and getters into book">
+      <created>1513142616178</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1513142616178</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23865000" />
+    <option name="totallyTimeSpent" value="23889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="816" extended-state="6" />
@@ -951,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="737">
           <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
             <element signature="e#48#80#0" expanded="true" />
