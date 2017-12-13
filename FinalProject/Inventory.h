@@ -12,8 +12,6 @@ public:
 
     virtual ~Inventory{};
 
-
-
     /**
      * prints a summary of all available functions
      * the command would be: H

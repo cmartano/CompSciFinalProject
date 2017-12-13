@@ -123,6 +123,141 @@ FinalProject/fast:
 	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/build
 .PHONY : FinalProject/fast
 
+Book.o: Book.cpp.o
+
+.PHONY : Book.o
+
+# target to build an object file
+Book.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Book.cpp.o
+.PHONY : Book.cpp.o
+
+Book.i: Book.cpp.i
+
+.PHONY : Book.i
+
+# target to preprocess a source file
+Book.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Book.cpp.i
+.PHONY : Book.cpp.i
+
+Book.s: Book.cpp.s
+
+.PHONY : Book.s
+
+# target to generate assembly for a file
+Book.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Book.cpp.s
+.PHONY : Book.cpp.s
+
+CustomerWaiting.o: CustomerWaiting.cpp.o
+
+.PHONY : CustomerWaiting.o
+
+# target to build an object file
+CustomerWaiting.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o
+.PHONY : CustomerWaiting.cpp.o
+
+CustomerWaiting.i: CustomerWaiting.cpp.i
+
+.PHONY : CustomerWaiting.i
+
+# target to preprocess a source file
+CustomerWaiting.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.i
+.PHONY : CustomerWaiting.cpp.i
+
+CustomerWaiting.s: CustomerWaiting.cpp.s
+
+.PHONY : CustomerWaiting.s
+
+# target to generate assembly for a file
+CustomerWaiting.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.s
+.PHONY : CustomerWaiting.cpp.s
+
+LinkedNode.o: LinkedNode.cpp.o
+
+.PHONY : LinkedNode.o
+
+# target to build an object file
+LinkedNode.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedNode.cpp.o
+.PHONY : LinkedNode.cpp.o
+
+LinkedNode.i: LinkedNode.cpp.i
+
+.PHONY : LinkedNode.i
+
+# target to preprocess a source file
+LinkedNode.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedNode.cpp.i
+.PHONY : LinkedNode.cpp.i
+
+LinkedNode.s: LinkedNode.cpp.s
+
+.PHONY : LinkedNode.s
+
+# target to generate assembly for a file
+LinkedNode.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedNode.cpp.s
+.PHONY : LinkedNode.cpp.s
+
+Store.o: Store.cpp.o
+
+.PHONY : Store.o
+
+# target to build an object file
+Store.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Store.cpp.o
+.PHONY : Store.cpp.o
+
+Store.i: Store.cpp.i
+
+.PHONY : Store.i
+
+# target to preprocess a source file
+Store.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Store.cpp.i
+.PHONY : Store.cpp.i
+
+Store.s: Store.cpp.s
+
+.PHONY : Store.s
+
+# target to generate assembly for a file
+Store.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/Store.cpp.s
+.PHONY : Store.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... FinalProject"
+	@echo "... Book.o"
+	@echo "... Book.i"
+	@echo "... Book.s"
+	@echo "... CustomerWaiting.o"
+	@echo "... CustomerWaiting.i"
+	@echo "... CustomerWaiting.s"
+	@echo "... LinkedNode.o"
+	@echo "... LinkedNode.i"
+	@echo "... LinkedNode.s"
+	@echo "... Store.o"
+	@echo "... Store.i"
+	@echo "... Store.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

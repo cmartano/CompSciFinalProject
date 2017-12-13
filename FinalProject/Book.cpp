@@ -7,9 +7,9 @@
 #include "CustomerWaiting.h"
 
 Book::Book(std::string title, int haveValue, int wantValue) {
-    this-> title;
-    this->wantValue;
-    this->haveValue;
+    this->title = title;
+    this->wantValue = wantValue;
+    this->haveValue = haveValue;
     LinkedQueue waitingList;
 }
 
@@ -33,7 +33,7 @@ Book::~Book(){
 
 int Book::getWantValue() { return this->wantValue; }
 
-int Book::getHaveValue() { return this->haveValue; }
+int Book::getHaveValue() { return haveValue; }
 
 void Book::setHaveValue(int ui){ haveValue=ui; }
 

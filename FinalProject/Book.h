@@ -77,7 +77,7 @@ public:
      */
     std::string toString();
 
-    std::string getTitle();
+
 
     void addCustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email);
 

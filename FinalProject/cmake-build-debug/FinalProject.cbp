@@ -80,6 +80,33 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Book.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Book.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/CustomerWaiting.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/CustomerWaiting.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedNode.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedNode.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Store.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Store.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/main.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
 		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
