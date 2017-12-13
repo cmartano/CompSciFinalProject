@@ -10,7 +10,7 @@ class Inventory{
 public:
 
 
-    virtual ~Inventory{};
+    virtual ~Inventory(){};
 
     /**
      * prints a summary of all available functions
