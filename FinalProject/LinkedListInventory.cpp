@@ -4,6 +4,8 @@
 
 #include "LinkedListInventory.h"
 #include "Book.h"
+#include <iostream>
+#include <fstream>
 
 
 void LinkedListInventory:: add(std::string title, int haveValue, int wantValue) {
@@ -27,12 +29,11 @@ void LinkedListInventory::modify(std::string title) {
             std::cout<<"Enter a new want value:"<<std::endl;
             std::cin>>wantval;
             first->getItem().setWantValue(wantval);
-        }
-
-        else{
+        }//if
             first=first->getNext();
-        }
-    }
+
+    }//while
+
 }
 
 void LinkedListInventory::sell(std::string title) {
@@ -49,6 +50,20 @@ void LinkedListInventory::sell(std::string title) {
 }
 
 
+void LinkedListInventory:: order(){
+    int itemsRequired;
+    std::string title;
+    std::ofstream myFile;
+    myFile.open("/users/ChristianMartano/Downloads/Inventory.txt");
+    while(first->getNext()!=nullptr){
+        if(first->getItem().getHaveValue!=first->getItem.getWantValue){
+            itemsRequired=(first->getItem().getHavevalue-first->getItem.getWantValue);
+            itemsRequired=itemsRequired^2;
+            title=first->getItem().getTitle();
+            myFile<<title<<" , "<<itemsRequired<<"\n";
+        }//if
+    }//while
+}
 
 
 

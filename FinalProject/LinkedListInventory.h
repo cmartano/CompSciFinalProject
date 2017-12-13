@@ -74,7 +74,7 @@ public:
      * the have value will be equal to the want value.
      * @param title
      */
-     void order(std::string title);
+     void order();
 
     /**
      * Take information from a file listing the delivery shipment of books.
