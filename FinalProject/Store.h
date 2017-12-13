@@ -8,6 +8,7 @@
 
 #include <string>
 #include "LinkedNode.h"
+#include "Inventory.h"
 #include <iostream>
 
 class Store{

@@ -22,13 +22,11 @@ Book::Book(const Book& bookToCopy){
 
 Book& Book::operator = (const Book& bookToCopy){
     //TODO
-
     return *this;
 }
 
 Book::~Book(){
     //TODO
-
 }
 
 int Book::getWantValue() { return this->wantValue; }

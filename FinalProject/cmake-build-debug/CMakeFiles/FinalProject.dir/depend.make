@@ -13,6 +13,7 @@ CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o: ../CustomerWaiting.h
 CMakeFiles/FinalProject.dir/LinkedNode.cpp.o: ../LinkedNode.cpp
 CMakeFiles/FinalProject.dir/LinkedNode.cpp.o: ../LinkedNode.h
 
+CMakeFiles/FinalProject.dir/Store.cpp.o: ../Inventory.h
 CMakeFiles/FinalProject.dir/Store.cpp.o: ../LinkedNode.h
 CMakeFiles/FinalProject.dir/Store.cpp.o: ../Store.cpp
 CMakeFiles/FinalProject.dir/Store.cpp.o: ../Store.h
