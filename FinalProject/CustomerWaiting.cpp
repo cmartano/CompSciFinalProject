@@ -12,20 +12,20 @@ CustomerWaiting::CustomerWaiting(std::string name, std::string contactPref, std:
     this->email = email;
 }
 
-std::string getContactPref(){
-    return customerWaiting.contactPref;
+std::string CustomerWaiting::getContactPref(){
+    return contactPref;
 }
 
-std::string getEmail(){
-    return customerWaiting.email;
+std::string CustomerWaiting::getEmail(){
+    return email;
 }
 
-std::string getPhoneNumber(){
-    return customerWaiting.phoneNumber;
+std::string CustomerWaiting::getPhoneNumber(){
+    return phoneNum;
 }
 
-std::string getName(){
-    return customerWaiting.name;
+std::string CustomerWaiting::getName(){
+    return name;
 }
 
 

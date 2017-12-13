@@ -5,7 +5,7 @@
 #ifndef COMPSCIFINALPROJECT_INVENTORY_H
 #define COMPSCIFINALPROJECT_INVENTORY_H
 
-#endif //COMPSCIFINALPROJECT_INVENTORY_H
+
 
 class CustomerWaiting{
 private:
@@ -58,3 +58,5 @@ public:
     std::string toString();
 
 };
+
+#endif //COMPSCIFINALPROJECT_INVENTORY_H
