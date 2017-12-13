@@ -13,7 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="75f22176-5b42-4b96-9a00-7609a8bc7954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedListInventory.cpp" afterPath="$PROJECT_DIR$/LinkedListInventory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book.cpp" afterPath="$PROJECT_DIR$/Book.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book.h" afterPath="$PROJECT_DIR$/Book.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +59,7 @@
       <file leaf-file-name="LinkedListInventory.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="297">
               <caret line="41" column="75" lean-forward="false" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
               <folding>
                 <element signature="e#48#80#0" expanded="true" />
@@ -70,8 +71,8 @@
       <file leaf-file-name="LinkedListInventory.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-601">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="-403">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,9 +91,21 @@
       <file leaf-file-name="Book.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Book.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+            <state relative-caret-position="388">
+              <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Book.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              <folding>
+                <element signature="e#119#142#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,18 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Book.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="e#119#142#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -143,15 +144,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Inventory.h" />
         <option value="$PROJECT_DIR$/LinkedListInventory.h" />
-        <option value="$PROJECT_DIR$/Book.h" />
         <option value="$PROJECT_DIR$/CustomerWaiting.cpp" />
         <option value="$PROJECT_DIR$/CustomerWaiting.h" />
         <option value="$PROJECT_DIR$/LinkedQueueOfCustomers.h" />
         <option value="$PROJECT_DIR$/LinkedQueueOfCustomers.cpp" />
         <option value="$PROJECT_DIR$/LinkedQueue.cpp" />
-        <option value="$PROJECT_DIR$/Book.cpp" />
         <option value="$PROJECT_DIR$/Store.h" />
         <option value="$PROJECT_DIR$/LinkedListInventory.cpp" />
+        <option value="$PROJECT_DIR$/Book.h" />
+        <option value="$PROJECT_DIR$/Book.cpp" />
       </list>
     </option>
   </component>
@@ -458,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513118798475</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="working on linked list inventory. also need to add some setters and getters into book">
+      <created>1513131307620</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1513131307620</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18030000" />
+    <option name="totallyTimeSpent" value="21239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="816" extended-state="6" />
@@ -534,7 +542,8 @@
     <MESSAGE value="I changed myinventory to myInventory" />
     <MESSAGE value="I added my LinkedQueue files to use for the waiting list for the book class." />
     <MESSAGE value="I have tried making book more complete, changed linkedQueue to work with CustomerWaiting objects rather than strings, and added some thing in CustomerWaiting, inventory, and linkedlistInventory" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have tried making book more complete, changed linkedQueue to work with CustomerWaiting objects rather than strings, and added some thing in CustomerWaiting, inventory, and linkedlistInventory" />
+    <MESSAGE value="working on linked list inventory. also need to add some setters and getters into book" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on linked list inventory. also need to add some setters and getters into book" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -897,12 +906,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Book.h">
+    <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="-403">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="41" column="75" lean-forward="false" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
           <folding>
-            <element signature="e#119#142#0" expanded="true" />
+            <element signature="e#48#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -915,28 +932,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
+    <entry file="file://$PROJECT_DIR$/Book.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-601">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="75" lean-forward="false" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
+        <state relative-caret-position="193">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
           <folding>
-            <element signature="e#48#80#0" expanded="true" />
+            <element signature="e#119#142#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Book.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        <state relative-caret-position="388">
+          <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding />
         </state>
       </provider>

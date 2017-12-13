@@ -28,18 +28,47 @@ public:
     ~Book();
 
     /**
-     * Returns the wantValue of the title entered by the user.
-     * @param title
+     * Returns the wantValue to the user.
+     * @param none
      * @return the wantValue of the title entered by the user.
      */
     int getWantValue();
 
     /**
-     * Returns the haveValue of the title entered by the user.
-     * @param title
+     * Returns the haveValue to the user.
+     * @param none
      * @return the haveValue of the title entered by the user.
      */
     int getHaveValue();
+
+    /**
+     * Sets the wantValue of the title
+     * @param the new WantValue (userinput) of the title entered by the user
+     * @return nothing.
+     */
+    void setWantValue(int ui);
+
+    /**
+     * Sets the HaveValue of the title
+     * @param the new HaveValue (userinput) of the title entered by the user
+     * @return nothing.
+     */
+    void setHaveValue(int ui);
+
+    /**
+     * Sets the title to the user input
+     * @param the userinput for the title
+     * @return none
+     */
+    void setTitle(std::string ui);
+
+    /**
+     * Returns the title to the user.
+     * @param none
+     * @return the title of the title entered by the user.
+     */
+    std::string getTitle();
+
 
     //    I don't know if we need this, i just put it here in case.
     /**
@@ -47,6 +76,8 @@ public:
      * @return
      */
     std::string toString();
+
+    std::string getTitle();
 
     void addCustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email);
 

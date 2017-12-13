@@ -7,7 +7,6 @@
 #include "CustomerWaiting.h"
 
 Book::Book(std::string title, int haveValue, int wantValue) {
-
     this-> title;
     this->wantValue;
     this->haveValue;
@@ -32,17 +31,23 @@ Book::~Book(){
 
 }
 
-int Book::getWantValue() {
-    return this->wantValue;
-}
+int Book::getWantValue() { return this->wantValue; }
 
-int Book::getHaveValue() {
-    return this->haveValue;
-}
+int Book::getHaveValue() { return this->haveValue; }
+
+void Book::setHaveValue(int ui){ haveValue=ui; }
+
+void Book::setWantValue(int ui){ haveValue=ui; }
+
+void Book::setTitle(std::string ui){ title=ui; }
+
+std::string Book::getTitle() { return this->title; }
+
+
+
 
 std::string Book::toString(){
     //TODO...maybe, needs to be tested
-
     std::string myString = "{ Title: ";
     myString += this->title;
     myString += ", WantValue: ";
