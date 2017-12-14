@@ -21,14 +21,21 @@ public:
      * @param haveValue
      * @param wantValue
      */
-    virtual void add(std::string title, int haveValue, int wantValue) = 0;
+    virtual void add() = 0;
+
+    /**
+   * provides a summary of the information of a given title
+   * it should print: {Title, haveValue, wantValue. WaitingList: ___, ___, ...}
+   * (it should print the waiting list in order of queue)
+   */
+    virtual void inquire() = 0;
 
     /**
      * Modify the want value for the specified title. Display current want and have values,
      * and prompt user for new want value.
      * @param title
      */
-    virtual void modify(std::string title) = 0;
+    virtual void modify() = 0;
 
     /**
      * Decrease the count for the specified title by 1.  If the title doesn't exist yet, it should be added.
@@ -36,7 +43,7 @@ public:
      * them on the wait list for that title.
      * @param title
      */
-    virtual void sell(std::string title) = 0;
+    virtual void sell() = 0;
 
     /**
      * Create a bulk purchase order for additional books based on a comparison of the have and want values
@@ -44,7 +51,7 @@ public:
      * the have value will be equal to the want value.
      * @param title
      */
-    virtual void order(std::string title) = 0;
+    virtual void order() = 0;
 
     /**
      * Take information from a file listing the delivery shipment of books.

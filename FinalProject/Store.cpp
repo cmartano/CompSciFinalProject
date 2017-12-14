@@ -32,16 +32,40 @@ void Store::list() {
     }
 }
 
-void Store::inquire() {
-    std::string title;
-    std::cout<<"Enter a title"<<std::endl;
-    std::cin>>title;
-    myInventory
-
-}
 
 void Store::getCommand(std::string command) {
-    if (command=="I"){
-        inquire();
+
+    if (command == "I") {
+        myInventory->inquire();
     }
+
+    else if (command == "L") {
+        list();
+    }
+
+    else if (command == "A") {
+        myInventory->add();
+    }
+
+    else if (command == "M") {
+    myInventory->modify();
+    }
+
+    else if (command=="S"){
+        myInventory->sell();
+    }
+
+    else if(command=="O"){
+        myInventory->order();
+    }
+
+    else if (command=="D"){
+        myInventory->delivery();
+    }
+
+    else if (command=="R"){
+        myInventory->returnInvoice();
+    }
+
+
 }

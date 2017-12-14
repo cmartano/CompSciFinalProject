@@ -13,10 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="75f22176-5b42-4b96-9a00-7609a8bc7954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inventory.h" afterPath="$PROJECT_DIR$/Inventory.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedListInventory.cpp" afterPath="$PROJECT_DIR$/LinkedListInventory.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedListInventory.h" afterPath="$PROJECT_DIR$/LinkedListInventory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedNode.cpp" afterPath="$PROJECT_DIR$/LinkedNode.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedNode.h" afterPath="$PROJECT_DIR$/LinkedNode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.cpp" afterPath="$PROJECT_DIR$/Store.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +51,8 @@
       <file leaf-file-name="Store.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Store.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="555">
+              <caret line="37" column="2" lean-forward="false" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
               <folding>
                 <element signature="e#48#66#0" expanded="true" />
               </folding>
@@ -63,7 +63,7 @@
       <file leaf-file-name="Store.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Store.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="570">
               <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding>
                 <element signature="e#122#139#0" expanded="true" />
@@ -72,21 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedListInventory.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="990">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="e#48#80#0" expanded="true" />
               </folding>
@@ -97,11 +87,21 @@
       <file leaf-file-name="LinkedListInventory.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="122">
+              <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
               <folding>
                 <element signature="e#135#158#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventory.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Inventory.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,16 +151,16 @@
         <option value="$PROJECT_DIR$/Book.h" />
         <option value="$PROJECT_DIR$/CustomerWaiting.h" />
         <option value="$PROJECT_DIR$/CustomerWaiting.cpp" />
-        <option value="$PROJECT_DIR$/Inventory.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Store.h" />
-        <option value="$PROJECT_DIR$/Store.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Book.cpp" />
         <option value="$PROJECT_DIR$/LinkedNode.cpp" />
         <option value="$PROJECT_DIR$/LinkedNode.h" />
-        <option value="$PROJECT_DIR$/LinkedListInventory.h" />
+        <option value="$PROJECT_DIR$/Store.h" />
+        <option value="$PROJECT_DIR$/Inventory.h" />
         <option value="$PROJECT_DIR$/LinkedListInventory.cpp" />
+        <option value="$PROJECT_DIR$/LinkedListInventory.h" />
+        <option value="$PROJECT_DIR$/Store.cpp" />
       </list>
     </option>
   </component>
@@ -1168,11 +1168,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513284790949</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Linked list inventory has some comparison issues">
+      <created>1513286050400</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1513286050400</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26429000" />
+    <option name="totallyTimeSpent" value="27708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="816" extended-state="6" />
@@ -1249,7 +1256,8 @@
     <MESSAGE value="Trying to fix the code so that main can run, i had to fix the #indef things so that CustomerWaiting doesnt get included more than 1 time in several locations (at least i think that's what it does)" />
     <MESSAGE value="Changed the instance of Inventory myInventory to be Inventory* myInventory" />
     <MESSAGE value="changed the linked node to hold books and started store.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the linked node to hold books and started store.cpp" />
+    <MESSAGE value="Linked list inventory has some comparison issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list inventory has some comparison issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1581,14 +1589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1604,16 +1604,6 @@
         <state relative-caret-position="510">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Store.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="e#122#139#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1641,16 +1631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="e#135#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedNode.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1667,20 +1647,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+          <folding>
+            <element signature="e#135#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Store.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="555">
+          <caret line="37" column="2" lean-forward="false" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
           <folding>
             <element signature="e#48#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Store.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="e#122#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state relative-caret-position="990">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="e#48#80#0" expanded="true" />
           </folding>

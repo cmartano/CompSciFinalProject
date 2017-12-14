@@ -52,14 +52,14 @@ public:
      * @param haveValue
      * @param wantValue
      */
-    void add(std::string title, int haveValue, int wantValue);
+    void add();
 
     /**
      * Modify the want value for the specified title. Display current want and have values,
      * and prompt user for new want value.
      * @param title
      */
-    void modify(std::string title);
+    void modify();
 
     /**
      * Decrease the count for the specified title by 1.  If the title doesn't exist yet, it should be added.
@@ -67,7 +67,7 @@ public:
      * them on the wait list for that title.
      * @param title
      */
-    void sell(std::string title);
+    void sell();
 
     /**
      * Create a bulk purchase order for additional books based on a comparison of the have and want values

@@ -15,7 +15,19 @@ LinkedListInventory::LinkedListInventory() {
     bookCount=0;
 }
 
-void LinkedListInventory:: add(std::string title, int haveValue, int wantValue) {
+void LinkedListInventory:: add() {
+    std::string title;
+    std::cout<<"Enter a title"<<std::endl;
+    std::cin>>title;
+
+    int haveValue;
+    std::cout<<"Enter number of copies needed"<<std::endl;
+    std::cin>>haveValue;
+
+    int wantValue;
+    std::cout<<"Enter number of copies wanted"<<std::endl;
+    std::cin>>wantValue;
+
     Book* book1= new Book(title, haveValue, wantValue);
     if (first != nullptr) {
         first = new LinkedNode(book1);
@@ -30,7 +42,10 @@ void LinkedListInventory:: add(std::string title, int haveValue, int wantValue) 
         }
     }
 
-void LinkedListInventory::modify(std::string title) {
+void LinkedListInventory::modify() {
+    std::string title;
+    std::cout<<"Enter a title"<<std::endl;
+    std::cin>>title;
     while (first != nullptr){
         if (first->getItem()->getTitle==title){
             int wantval;
@@ -44,7 +59,12 @@ void LinkedListInventory::modify(std::string title) {
 
 }
 
-void LinkedListInventory::sell(std::string title) {
+void LinkedListInventory::sell() {
+
+    std::string title;
+    std::cout<<"Enter a title"<<std::endl;
+    std::cin>>title;
+
     while (first != nullptr){
 
         if (first->getItem()->getTitle==title){
@@ -62,6 +82,10 @@ void LinkedListInventory::inquire() {
     std::string title;
     std::cout<<"Enter a title"<<std::endl;
     std::cin>>title;
+
+    while (first!= nullptr){
+
+    }
 
 }
 
