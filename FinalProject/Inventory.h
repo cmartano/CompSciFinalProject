@@ -5,30 +5,14 @@
 #ifndef FINALPROJECT_INVENTORY_H
 #define FINALPROJECT_INVENTORY_H
 
+#include <stdexcept>
+
 
 class Inventory{
 public:
 
 
     virtual ~Inventory(){};
-
-    /**
-     * prints a summary of all available functions
-     * the command would be: H
-     */
-    virtual void help() = 0;
-
-    /**
-     * provides a summary of the information of a given title
-     * it should print: {Title, haveValue, wantValue. WaitingList: ___, ___, ...}
-     * (it should print the waiting list in order of queue)
-     */
-    virtual void inquire(std::string title) = 0;
-
-    /**
-     * print an alphabetical list of all the titles
-     */
-    virtual void list() = 0;
 
     /**
      * Add a book to the inventory. Prompt for initial want value and have value. If the title already

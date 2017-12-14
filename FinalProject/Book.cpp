@@ -6,6 +6,14 @@
 #include "LinkedQueue.h"
 #include "CustomerWaiting.h"
 
+Book::Book() {
+    this->title = "";
+    this->wantValue = 0;
+    this->haveValue = 0;
+    LinkedQueue waitingList;
+}
+
+
 Book::Book(std::string title, int haveValue, int wantValue) {
     this->title = title;
     this->wantValue = wantValue;
@@ -72,6 +80,7 @@ std::string Book::getCustomerWaitingList(){
 
     return waitingList.dequeue();
 }
+
 
 
 

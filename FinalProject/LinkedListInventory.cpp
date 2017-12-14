@@ -3,15 +3,23 @@
 //
 
 #include "LinkedListInventory.h"
+#include "LinkedNode.h"
 #include "Book.h"
 #include <iostream>
 #include <fstream>
 
 
+LinkedListInventory::LinkedListInventory() {
+    first= nullptr;
+    last = nullptr;
+    bookCount=0;
+}
+
 void LinkedListInventory:: add(std::string title, int haveValue, int wantValue) {
+    Book* book1= new Book(title, haveValue, wantValue);
     if (first != nullptr) {
-        first = new LinkedNode(new Book(title, haveValue, wantValue));
-        end = first;
+        first = new LinkedNode(book1);
+        last = first;
     }
 
     else {
@@ -49,6 +57,13 @@ void LinkedListInventory::sell(std::string title) {
     }
 }
 
+void LinkedListInventory::inquire() {
+    std::string title;
+    std::cout<<"Enter a title"<<std::endl;
+    std::cin>>title;
+
+}
+
 
 void LinkedListInventory:: order(){
     int itemsRequired;
@@ -57,13 +72,15 @@ void LinkedListInventory:: order(){
     myFile.open("/users/ChristianMartano/Downloads/Inventory.txt");
     while(first->getNext()!=nullptr){
         if(first->getItem().getHaveValue!=first->getItem.getWantValue){
-            itemsRequired=(first->getItem().getHavevalue-first->getItem.getWantValue);
+            itemsRequired=(first->getItem().getWantvalue-first->getItem.getHaveValue);
             itemsRequired=itemsRequired^2;
             title=first->getItem().getTitle();
-            myFile<<title<<" , "<<itemsRequired<<"\n";
+            myFile<<title<<" | "<<itemsRequired<<"\n";
         }//if
     }//while
 }
+
+
 
 
 

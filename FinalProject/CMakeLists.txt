@@ -9,5 +9,6 @@ set(SOURCE_FILES
         Store.cpp
         CustomerWaiting.cpp
         LinkedNode.cpp
+        LinkedListInventory.cpp
         )
 add_executable(FinalProject ${SOURCE_FILES})

@@ -6,8 +6,9 @@
 #define FINALPROJECT_LINKEDLISTINVENTORY_H
 
 #include "LinkedNode.h"
+#include "Inventory.h"
 
-class LinkedListInventory : public Inventory{
+class LinkedListInventory : public Inventory {
 
 private:
     LinkedNode* first;
@@ -22,7 +23,7 @@ public:
     LinkedListInventory();
 
     //destructor
-    ~Inventory{};
+    ~LinkedListInventory();
 
 
 

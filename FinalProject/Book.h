@@ -24,6 +24,9 @@ public:
 
     Book(std::string title, int haveValue, int wantValue);
     Book(const Book& bookToCopy);
+
+    Book();
+
     Book& operator = (const Book& bookToCopy);
     ~Book();
 
