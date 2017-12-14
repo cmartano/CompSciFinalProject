@@ -4,7 +4,7 @@
 #include "LinkedNode.h"
 
 
-LinkedNode::LinkedNode(Book item){
+LinkedNode::LinkedNode(Book* item){
     this->item = item;
     next = nullptr;
 }
@@ -14,7 +14,7 @@ LinkedNode::LinkedNode(const LinkedNode& nodeToCopy){
     next = nullptr;
 }
 
-Book LinkedNode::getItem(){
+Book * LinkedNode::getItem(){
     return item;
 }
 
@@ -22,7 +22,7 @@ LinkedNode* LinkedNode::getNext(){
     return next;
 }
 
-void LinkedNode::setItem(Book newItem){
+void LinkedNode::setItem(Book* newItem){
     item = newItem;
 }
 

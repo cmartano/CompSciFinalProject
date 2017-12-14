@@ -38,7 +38,7 @@ public:
      * it should print: {Title, haveValue, wantValue. WaitingList: ___, ___, ...}
      * (it should print the waiting list in order of queue)
      */
-    void inquire(std::string title);
+    void inquire();
 
     /**
      * print an alphabetical list of all the titles
