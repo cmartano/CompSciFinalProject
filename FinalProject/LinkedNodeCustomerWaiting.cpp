@@ -4,28 +4,28 @@
 #include "LinkedNodeCustomerWaiting.h"
 
 
-LinkedNode::LinkedNode(CustomerWaiting* item){
+LinkedNodeCustomerWaiting::LinkedNodeCustomerWaiting(CustomerWaiting *item){
     this->item = item;
     next = nullptr;
 }
 
-LinkedNode::LinkedNode(const LinkedNode& nodeToCopy){
+LinkedNodeCustomerWaiting::LinkedNodeCustomerWaiting(const LinkedNodeCustomerWaiting& nodeToCopy){
     item = nodeToCopy.item;
     next = nullptr;
 }
 
-CustomerWaiting* LinkedNode::getItem(){
+CustomerWaiting* LinkedNodeCustomerWaiting::getItem(){
     return item;
 }
 
-LinkedNode* LinkedNode::getNext(){
+LinkedNodeCustomerWaiting* LinkedNodeCustomerWaiting::getNext(){
     return next;
 }
 
-void LinkedNode::setItem(CustomerWaiting* newItem){
+void LinkedNodeCustomerWaiting::setItem(CustomerWaiting* newItem){
     item = newItem;
 }
 
-void LinkedNode::setNext(LinkedNode* newNext){
+void LinkedNodeCustomerWaiting::setNext(LinkedNodeCustomerWaiting* newNext){
     next = newNext;
 }

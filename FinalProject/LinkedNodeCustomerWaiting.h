@@ -7,19 +7,19 @@
 
 #include "CustomerWaiting.h"
 
-class LinkedNode {
+class LinkedNodeCustomerWaiting {
 
 private:
     CustomerWaiting* item;
-    LinkedNode* next;
+    LinkedNodeCustomerWaiting* next;
 
 public:
-    LinkedNode(CustomerWaiting* item);
-    LinkedNode(const LinkedNode& nodeToCopy); //only copies item, next is set to nullptr
+    LinkedNodeCustomerWaiting(CustomerWaiting* item);
+    LinkedNodeCustomerWaiting(const LinkedNodeCustomerWaiting& nodeToCopy); //only copies item, next is set to nullptr
     CustomerWaiting* getItem();
-    LinkedNode* getNext();
+    LinkedNodeCustomerWaiting* getNext();
     void setItem(CustomerWaiting* newItem);
-    void setNext(LinkedNode* newNext);
+    void setNext(LinkedNodeCustomerWaiting* newNext);
 };
 
 
