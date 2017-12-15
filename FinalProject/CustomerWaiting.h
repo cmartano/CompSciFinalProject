@@ -7,6 +7,7 @@
 
 #include <iostream>
 
+
 class CustomerWaiting{
 private:
     std::string contactPref;

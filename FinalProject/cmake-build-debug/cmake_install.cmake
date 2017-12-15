@@ -1,4 +1,4 @@
-# Install script for directory: /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject
+# Install script for directory: /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
