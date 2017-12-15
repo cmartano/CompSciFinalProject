@@ -20,7 +20,6 @@ void LinkedListInventory:: add() {
     std::string title;
     std::cout<<"Enter a title"<<std::endl;
     std::cin>>title;
-
     int haveValue;
     std::cout<<"Enter number of copies needed"<<std::endl;
     std::cin>>haveValue;
