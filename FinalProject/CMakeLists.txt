@@ -13,4 +13,5 @@ set(SOURCE_FILES
         LinkedQueue.cpp
         LinkedListInventory.cpp
         )
+
 add_executable(FinalProject ${SOURCE_FILES})

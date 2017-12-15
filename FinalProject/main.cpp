@@ -6,15 +6,15 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-
-    Store* MyStore= new Store();
-
-    std::string command;
-
-    std::cout<<"enter a command:";
-    std::cin>>command;
-
-    MyStore->getCommand(command);
+//
+//    Store* MyStore= new Store();
+//
+//    std::string command;
+//
+//    std::cout<<"enter a command:";
+//    std::cin>>command;
+//
+//    MyStore->getCommand(command);
 
     std::string title = "Harry Potter";
     int haveValue = 5;
