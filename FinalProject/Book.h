@@ -5,7 +5,7 @@
 #ifndef COMPSCIFINALPROJECT_BOOK_H
 #define COMPSCIFINALPROJECT_BOOK_H
 
-#include "LinkedNode.h"
+
 #include "LinkedQueue.h"
 #include <iostream>
 

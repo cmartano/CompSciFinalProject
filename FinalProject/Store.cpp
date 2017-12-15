@@ -10,7 +10,7 @@
 Store::Store() {
     myInventory = new LinkedListInventory();
     titlesCount=0;
-    arrayOfTitles= new std::string{arrayOfTitles};
+    arrayOfTitles= new std::string[titlesCount];
 }
 
 void Store::help(){

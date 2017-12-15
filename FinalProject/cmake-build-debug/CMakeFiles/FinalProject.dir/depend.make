@@ -4,7 +4,6 @@
 CMakeFiles/FinalProject.dir/Book.cpp.o: ../Book.cpp
 CMakeFiles/FinalProject.dir/Book.cpp.o: ../Book.h
 CMakeFiles/FinalProject.dir/Book.cpp.o: ../CustomerWaiting.h
-CMakeFiles/FinalProject.dir/Book.cpp.o: ../LinkedNode.h
 CMakeFiles/FinalProject.dir/Book.cpp.o: ../LinkedNodeCustomerWaiting.h
 CMakeFiles/FinalProject.dir/Book.cpp.o: ../LinkedQueue.h
 

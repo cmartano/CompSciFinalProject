@@ -5,7 +5,7 @@
 #ifndef COMPSCIFINALPROJECT_INVENTORY_H
 #define COMPSCIFINALPROJECT_INVENTORY_H
 
-
+#include <iostream>
 
 class CustomerWaiting{
 private:
