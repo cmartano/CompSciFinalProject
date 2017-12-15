@@ -50,13 +50,6 @@ public:
    */
     std::string getName();
 
-    //I am not sure if we need this but i added it just in case.
-    /**
-     * prints out the information of a customer, in the format: {Name, contactPref, phoneNumber, email}
-     * @return
-     */
-    std::string toString();
-
 };
 
 #endif //COMPSCIFINALPROJECT_INVENTORY_H

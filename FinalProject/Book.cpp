@@ -77,8 +77,9 @@ void Book::addCustomerWaiting(std::string name, std::string contactPref, std::st
 
 std::string Book::getCustomerWaitingList(){
     //TODO...maybe, needs to be tested
-
-    return waitingList.dequeue();
+    CustomerWaiting*temp=waitingList.dequeue();
+    std::string nextinline=temp->toString();
+    return
 }
 
 

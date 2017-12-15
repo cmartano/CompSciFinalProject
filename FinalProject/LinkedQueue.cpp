@@ -39,8 +39,8 @@ LinkedQueue::~LinkedQueue(){
 
 
 //adds an item to the end of the queue
-void LinkedQueue::enqueue(CustomerWaiting item){
-    LinkedNode* newNode = new LinkedNode(item);
+void LinkedQueue::enqueue(CustomerWaiting* item){
+    LinkedNodeCustomerWaiting* newNode = new LinkedNodeCustomerWaiting(item);
     //if front is nullptr, end should be nullptr too
     if (front == nullptr){
         front = newNode;
@@ -54,7 +54,7 @@ void LinkedQueue::enqueue(CustomerWaiting item){
 
 //takes an item off the front of the queue and returns it
 //throws out_of_range exception if the queue is empty
-std::string LinkedQueue::dequeue(){
+CustomerWaiting* LinkedQueue::dequeue(){
     //TODO, consider cases where:
     // the queue is empty
     // the queue has one item
@@ -64,7 +64,7 @@ std::string LinkedQueue::dequeue(){
     }
 
 
-    CustomerWaiting frontToReturn = front->getItem();
+    CustomerWaiting*  frontToReturn = front->getItem();
 
     front = front->getNext();
 

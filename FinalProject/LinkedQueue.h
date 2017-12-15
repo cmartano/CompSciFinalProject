@@ -31,11 +31,11 @@ public:
     ~LinkedQueue();
     
     //adds an item to the end of the queue
-    void enqueue(CustomerWaiting item);
+    void enqueue(CustomerWaiting* item);
 
     //takes an item off the front of the queue and returns it
     //throws out_of_range exception if the queue is empty
-    std::string dequeue();
+    CustomerWaiting* dequeue();
 
     //returns true if the queue has no items, false otherwise
     bool isEmpty();
