@@ -86,10 +86,16 @@ void LinkedListInventory::inquire() {
     std::cout<<"Enter a title"<<std::endl;
     std::cin>>title;
 
+    Book* book= first->getItem();
+
     while (first!= nullptr){
-
+        Book* book= first->getItem();
+        if (book->getTitle().compare(title)==0){
+            std::string info=book->toString();
+            std::cout<<info<<std::endl;
+        }
+        first=first->getNext();
     }
-
 }
 
 
@@ -98,13 +104,14 @@ void LinkedListInventory:: order(){
     std::string title;
     std::ofstream myFile;
     myFile.open("Inventory.txt");
-    while(first->getNext()!=nullptr){
+    while(first!=nullptr){
         if(first->getItem()->getHaveValue != first->getItem()->getWantValue){
             itemsRequired=((first->getItem()->getWantValue())-(first->getItem()->getHaveValue()));
             itemsRequired=itemsRequired^2;
             title=first->getItem()->getTitle();
             myFile<<title<<" | "<<itemsRequired<<std::endl;
         }//if
+        first=first->getNext();
     }//while
     myFile.close();
 }
@@ -114,8 +121,10 @@ void LinkedListInventory::delivery() {
     std::ifstream myFile;
     myFile.open("Inventory.txt");
     getline(myFile, line);
-
-
+    /*
+     * GET TITLE FROM LINE GET NUMBER FROM LINE
+     *
+     */
 }
 
 

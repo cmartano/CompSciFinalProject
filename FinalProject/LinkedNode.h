@@ -20,6 +20,7 @@ public:
     LinkedNode* getNext();
     void setItem(Book* newItem);
     void setNext(LinkedNode* newNext);
+
 };
 
 
