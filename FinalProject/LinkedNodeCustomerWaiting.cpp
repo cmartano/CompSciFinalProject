@@ -22,7 +22,7 @@ LinkedNode* LinkedNode::getNext(){
     return next;
 }
 
-void LinkedNode::setItem(Book* newItem){
+void LinkedNode::setItem(CustomerWaiting* newItem){
     item = newItem;
 }
 

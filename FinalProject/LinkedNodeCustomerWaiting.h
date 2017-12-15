@@ -16,7 +16,7 @@ private:
 public:
     LinkedNode(CustomerWaiting* item);
     LinkedNode(const LinkedNode& nodeToCopy); //only copies item, next is set to nullptr
-    Book * getItem();
+    CustomerWaiting* getItem();
     LinkedNode* getNext();
     void setItem(CustomerWaiting* newItem);
     void setNext(LinkedNode* newNext);
