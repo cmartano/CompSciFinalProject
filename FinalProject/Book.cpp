@@ -6,6 +6,8 @@
 #include "LinkedQueue.h"
 #include "CustomerWaiting.h"
 
+//did it work?
+
 Book::Book() {
     title = "";
     wantValue = 0;
