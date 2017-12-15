@@ -7,7 +7,7 @@
 
 #include <string>
 #include <stdexcept>
-#include "LinkedNode.h"
+#include "LinkedNodeCustomerWaiting.h"
 #include "CustomerWaiting.h"
 
 /**
@@ -16,8 +16,8 @@
  */
 class LinkedQueue {
 private:
-    LinkedNode* front;
-    LinkedNode* end;
+    LinkedNodeCustomerWaiting* front;
+    LinkedNodeCustomerWaiting* end;
 
 public:
     

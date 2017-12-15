@@ -11,5 +11,6 @@ set(SOURCE_FILES
         LinkedNode.cpp
         LinkedNodeCustomerWaiting.cpp
         LinkedQueue.cpp
+        LinkedQueue.h
         )
 add_executable(FinalProject ${SOURCE_FILES})
