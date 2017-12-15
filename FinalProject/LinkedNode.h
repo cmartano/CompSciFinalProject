@@ -10,15 +10,15 @@
 class LinkedNode {
 
 private:
-    Book* item;
+    Book item;
     LinkedNode* next;
 
 public:
-    LinkedNode(Book* item);
+    LinkedNode(Book item);
     LinkedNode(const LinkedNode& nodeToCopy); //only copies item, next is set to nullptr
-    Book * getItem();
+    Book  getItem();
     LinkedNode* getNext();
-    void setItem(Book* newItem);
+    void setItem(Book newItem);
     void setNext(LinkedNode* newNext);
 
 };

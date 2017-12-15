@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FinalProject.dir/LinkedNode.cpp.o"
   "CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o"
   "CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o"
+  "CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o"
   "FinalProject.pdb"
   "FinalProject"
 )

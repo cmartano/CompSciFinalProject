@@ -28,17 +28,21 @@ void LinkedListInventory:: add() {
     std::cout<<"Enter number of copies wanted"<<std::endl;
     std::cin>>wantValue;
 
-    Book* book1= new Book(title, haveValue, wantValue);
+    Book book1= Book(title, haveValue, wantValue);
+    LinkedNode* newNode = new LinkedNode(book1);
     if (first != nullptr) {
-        first = new LinkedNode(book1);
+        first = newNode;
         last = first;
     }
 
     else {
-            LinkedNode *newNode = new LinkedNode(new Book(title, haveValue, wantValue));
-            LinkedNode *temp = last;
-            temp->setNext(newNode);
-            last = newNode;
+
+        last->setNext(newNode);
+        last = newNode;
+//            LinkedNode *newNode = new LinkedNode(new Book(title, haveValue, wantValue));
+//            LinkedNode *temp = last;
+//            temp->setNext(newNode);
+//            last = newNode;
         }
     }
 

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject
+CMAKE_SOURCE_DIR = /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,33 @@ CustomerWaiting.s: CustomerWaiting.cpp.s
 CustomerWaiting.cpp.s:
 	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.s
 .PHONY : CustomerWaiting.cpp.s
+
+LinkedListInventory.o: LinkedListInventory.cpp.o
+
+.PHONY : LinkedListInventory.o
+
+# target to build an object file
+LinkedListInventory.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o
+.PHONY : LinkedListInventory.cpp.o
+
+LinkedListInventory.i: LinkedListInventory.cpp.i
+
+.PHONY : LinkedListInventory.i
+
+# target to preprocess a source file
+LinkedListInventory.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.i
+.PHONY : LinkedListInventory.cpp.i
+
+LinkedListInventory.s: LinkedListInventory.cpp.s
+
+.PHONY : LinkedListInventory.s
+
+# target to generate assembly for a file
+LinkedListInventory.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.s
+.PHONY : LinkedListInventory.cpp.s
 
 LinkedNode.o: LinkedNode.cpp.o
 
@@ -327,6 +354,9 @@ help:
 	@echo "... CustomerWaiting.o"
 	@echo "... CustomerWaiting.i"
 	@echo "... CustomerWaiting.s"
+	@echo "... LinkedListInventory.o"
+	@echo "... LinkedListInventory.i"
+	@echo "... LinkedListInventory.s"
 	@echo "... LinkedNode.o"
 	@echo "... LinkedNode.i"
 	@echo "... LinkedNode.s"
