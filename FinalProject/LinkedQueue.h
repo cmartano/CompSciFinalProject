@@ -2,8 +2,8 @@
 // Created by Toby Dragon on 10/22/17.
 //
 
-#ifndef STACKSANDQUEUES_QUEUE_H
-#define STACKSANDQUEUES_QUEUE_H
+#ifndef FINALPROJECT_LINKEDQUEUE_H
+#define FINALPROJECT_LINKEDQUEUE_H
 
 #include <string>
 #include <stdexcept>
@@ -42,4 +42,4 @@ public:
 
 };
 
-#endif //STACKSANDQUEUES_QUEUE_H
+#endif //FINALPROJECT_LINKEDQUEUE_H

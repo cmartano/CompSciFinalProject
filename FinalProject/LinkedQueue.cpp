@@ -4,6 +4,7 @@
 #include "LinkedQueue.h"
 #include "CustomerWaiting.h"
 
+
 //Creates an empty queue
 LinkedQueue::LinkedQueue(){
     front = nullptr;

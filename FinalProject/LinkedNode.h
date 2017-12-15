@@ -2,8 +2,8 @@
 // Created by Toby Dragon on 10/24/16.
 //
 
-#ifndef LINKEDNODE_H
-#define LINKEDNODE_H
+#ifndef FINALPROJECT_LINKEDNODE_H
+#define FINALPROJECT_LINKEDNODE_H
 
 #include "Book.h"
 
@@ -24,4 +24,4 @@ public:
 };
 
 
-#endif //LINKEDNODE_H
+#endif //FINALPROJECT_LINKEDNODE_H
