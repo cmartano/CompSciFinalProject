@@ -104,9 +104,8 @@ void LinkedListInventory:: order(){
     std::ofstream myFile;
     myFile.open("Inventory.txt");
     while(first!=nullptr){
-        if(first->getItem()->getHaveValue != first->getItem()->getWantValue){
+        if((first->getItem()->getWantValue())-(first->getItem()->getHaveValue())>0){
             itemsRequired=((first->getItem()->getWantValue())-(first->getItem()->getHaveValue()));
-            itemsRequired=itemsRequired^2;
             title=first->getItem()->getTitle();
             myFile<<title<<" | "<<itemsRequired<<std::endl;
         }//if
@@ -124,6 +123,22 @@ void LinkedListInventory::delivery() {
      * GET TITLE FROM LINE GET NUMBER FROM LINE
      *
      */
+}
+
+void LinkedListInventory::returnInvoice(){
+    int itemsRequired;
+    std::string title;
+    std::ofstream myFile;
+    myFile.open("Inventory.txt");
+    while(first!=nullptr){
+        if((first->getItem()->getWantValue())-(first->getItem()->getHaveValue())<0){
+            itemsRequired=((first->getItem()->getHaveValue())-(first->getItem()->getWantValue()));
+            title=first->getItem()->getTitle();
+            myFile<<title<<" | "<<itemsRequired<<std::endl;
+        }//if
+        first=first->getNext();
+    }//while
+    myFile.close();
 }
 
 
