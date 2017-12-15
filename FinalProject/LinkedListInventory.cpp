@@ -93,9 +93,9 @@ void LinkedListInventory::inquire() {
     Book book= first->getItem();
     LinkedNode* temp=first;
     while (temp!= nullptr){
-        Book* book= temp->getItem();
-        if (book->getTitle().compare(title)==0){
-            std::string info=book->toString();
+        Book book= temp->getItem();
+        if (book.getTitle().compare(title)==0){
+            std::string info=book.toString();
             std::cout<<info<<std::endl;
         }
         temp=temp->getNext();
@@ -147,6 +147,10 @@ void LinkedListInventory::returnInvoice(){
     }//while
     myFile.close();
 }
+
+void LinkedListInventory::quit() {}
+
+LinkedListInventory::~LinkedListInventory() {}
 
 
 

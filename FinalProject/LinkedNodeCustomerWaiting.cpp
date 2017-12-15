@@ -2,9 +2,11 @@
 // Created by Harrison Kesel 12/14/17.
 //
 #include "LinkedNodeCustomerWaiting.h"
+#include "CustomerWaiting.h"
 
 
-LinkedNodeCustomerWaiting::LinkedNodeCustomerWaiting(CustomerWaiting item){
+
+LinkedNodeCustomerWaiting::LinkedNodeCustomerWaiting(CustomerWaiting* item){
     this->item = item;
     next = nullptr;
 }
@@ -14,7 +16,7 @@ LinkedNodeCustomerWaiting::LinkedNodeCustomerWaiting(const LinkedNodeCustomerWai
     next = nullptr;
 }
 
-CustomerWaiting LinkedNodeCustomerWaiting::getItem(){
+CustomerWaiting* LinkedNodeCustomerWaiting::getItem(){
     return item;
 }
 

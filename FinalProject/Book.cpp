@@ -72,7 +72,8 @@ std::string Book::toString(){
 void Book::addCustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email){
     //TODO...maybe, needs to be tested
 
-    CustomerWaiting personToAdd = CustomerWaiting (name, contactPref, phoneNum, email);
+    CustomerWaiting* personToAdd = new CustomerWaiting (name, contactPref, phoneNum, email);
+    LinkedNodeCustomerWaiting* addedperson=new LinkedNodeCustomerWaiting(personToAdd);
     waitingList.enqueue(personToAdd);
 
 }
