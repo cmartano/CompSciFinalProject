@@ -14,7 +14,7 @@ LinkedNodeCustomerWaiting::LinkedNodeCustomerWaiting(const LinkedNodeCustomerWai
     next = nullptr;
 }
 
-CustomerWaiting* LinkedNodeCustomerWaiting::getItem(){
+CustomerWaiting LinkedNodeCustomerWaiting::getItem(){
     return item;
 }
 

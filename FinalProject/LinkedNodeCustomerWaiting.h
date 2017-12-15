@@ -10,15 +10,15 @@
 class LinkedNodeCustomerWaiting {
 
 private:
-    CustomerWaiting* item;
+    CustomerWaiting item;
     LinkedNodeCustomerWaiting* next;
 
 public:
     LinkedNodeCustomerWaiting(CustomerWaiting item);
     LinkedNodeCustomerWaiting(const LinkedNodeCustomerWaiting& nodeToCopy); //only copies item, next is set to nullptr
-    CustomerWaiting* getItem();
+    CustomerWaiting getItem();
     LinkedNodeCustomerWaiting* getNext();
-    void setItem(CustomerWaiting* newItem);
+    void setItem(CustomerWaiting newItem);
     void setNext(LinkedNodeCustomerWaiting* newNext);
 };
 
