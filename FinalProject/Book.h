@@ -84,7 +84,7 @@ public:
 
     void addCustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email);
 
-    std::string getCustomerWaitingList();
+    void getCustomerWaiting();
 
 };
 

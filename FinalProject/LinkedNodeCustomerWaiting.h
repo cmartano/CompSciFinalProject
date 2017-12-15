@@ -14,7 +14,7 @@ private:
     LinkedNodeCustomerWaiting* next;
 
 public:
-    LinkedNodeCustomerWaiting(CustomerWaiting* item);
+    LinkedNodeCustomerWaiting(CustomerWaiting item);
     LinkedNodeCustomerWaiting(const LinkedNodeCustomerWaiting& nodeToCopy); //only copies item, next is set to nullptr
     CustomerWaiting* getItem();
     LinkedNodeCustomerWaiting* getNext();

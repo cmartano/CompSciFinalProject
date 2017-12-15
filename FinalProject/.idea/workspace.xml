@@ -13,6 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="75f22176-5b42-4b96-9a00-7609a8bc7954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book.cpp" afterPath="$PROJECT_DIR$/Book.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book.h" afterPath="$PROJECT_DIR$/Book.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp" afterPath="$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedNodeCustomerWaiting.h" afterPath="$PROJECT_DIR$/LinkedNodeCustomerWaiting.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedQueue.cpp" afterPath="$PROJECT_DIR$/LinkedQueue.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedQueue.h" afterPath="$PROJECT_DIR$/LinkedQueue.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,33 +30,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="Book.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Book.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="309">
+              <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#48#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedQueue.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Book.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Book.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+              <folding>
+                <marker date="1513301125335" expanded="true" signature="486:519" ph="/**...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerWaiting.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CustomerWaiting.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventory.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Inventory.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerWaiting.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CustomerWaiting.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#51#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Store.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Store.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedQueue.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedQueue.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-417">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="e#45#69#0" expanded="true" />
               </folding>
@@ -61,32 +111,12 @@
       <file leaf-file-name="LinkedQueue.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedQueue.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="489">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="e#117#134#0" expanded="true" />
-                <marker date="1513299400893" expanded="true" signature="469:970" ph="{...}" />
+                <marker date="1513301125321" expanded="true" signature="469:975" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedNode.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedNode.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedNode.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedNode.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -94,8 +124,8 @@
       <file leaf-file-name="LinkedNodeCustomerWaiting.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -104,8 +134,8 @@
       <file leaf-file-name="LinkedNodeCustomerWaiting.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedNodeCustomerWaiting.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -123,20 +153,20 @@
         <option value="$PROJECT_DIR$/LinkedListInventory.h" />
         <option value="$PROJECT_DIR$/LinkedQueueOfCustomers.h" />
         <option value="$PROJECT_DIR$/LinkedQueueOfCustomers.cpp" />
-        <option value="$PROJECT_DIR$/Book.h" />
         <option value="$PROJECT_DIR$/Inventory.h" />
         <option value="$PROJECT_DIR$/Store.h" />
-        <option value="$PROJECT_DIR$/Book.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CustomerWaiting.cpp" />
         <option value="$PROJECT_DIR$/CustomerWaiting.h" />
         <option value="$PROJECT_DIR$/LinkedListInventory.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp" />
-        <option value="$PROJECT_DIR$/LinkedNodeCustomerWaiting.h" />
-        <option value="$PROJECT_DIR$/LinkedQueue.h" />
         <option value="$PROJECT_DIR$/LinkedNode.h" />
         <option value="$PROJECT_DIR$/LinkedQueue.cpp" />
+        <option value="$PROJECT_DIR$/LinkedQueue.h" />
+        <option value="$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp" />
+        <option value="$PROJECT_DIR$/LinkedNodeCustomerWaiting.h" />
+        <option value="$PROJECT_DIR$/Book.h" />
+        <option value="$PROJECT_DIR$/Book.cpp" />
       </list>
     </option>
   </component>
@@ -202,31 +232,11 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/CMakeLists.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/LinkedNodeCustomerWaiting.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Book.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CustomerWaiting.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CustomerWaiting.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/LinkedQueue.cpp</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/LinkedQueue.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/DependInfo.cmake</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/build.make</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/depend.make</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/flags.make</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/FinalProject.cbp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/Makefile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -234,7 +244,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Inventory.txt</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -372,7 +381,7 @@
       <workItem from="1513128107550" duration="232000" />
       <workItem from="1513176935421" duration="4837000" />
       <workItem from="1513262442756" duration="101000" />
-      <workItem from="1513297038001" duration="1669000" />
+      <workItem from="1513297038001" duration="3455000" />
     </task>
     <task id="LOCAL-00001" summary="i added //hey">
       <created>1511887801252</created>
@@ -521,25 +530,32 @@
       <option name="project" value="LOCAL" />
       <updated>1513299388289</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Changed the indef things to the correct file names">
+      <created>1513299406790</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1513299406790</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22451000" />
+    <option name="totallyTimeSpent" value="24237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1720517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1720517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149931" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149931" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.503231" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28473178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -556,13 +572,13 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149931" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149931" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.503231" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.503231" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28473178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1720517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -670,7 +686,7 @@
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1513297137528" expanded="true" signature="486:519" ph="/**...*/" />
+            <marker date="1513301125335" expanded="true" signature="486:519" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -746,7 +762,7 @@
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1513297137528" expanded="true" signature="486:519" ph="/**...*/" />
+            <marker date="1513301125335" expanded="true" signature="486:519" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -801,7 +817,7 @@
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1513297137528" expanded="true" signature="486:519" ph="/**...*/" />
+            <marker date="1513301125335" expanded="true" signature="486:519" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -841,90 +857,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Store.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Store.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Book.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#48#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomerWaiting.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#51#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomerWaiting.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Book.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <marker date="1513297137528" expanded="true" signature="486:519" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <marker date="1513298851962" expanded="true" signature="320:409" ph="{...}" />
-            <marker date="1513298851962" expanded="true" signature="3083:3085" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,33 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#134#0" expanded="true" />
-            <marker date="1513299400893" expanded="true" signature="469:970" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedNodeCustomerWaiting.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -995,12 +904,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedListInventory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedListInventory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#48#80#0" expanded="true" />
+            <marker date="1513298851962" expanded="true" signature="320:409" ph="{...}" />
+            <marker date="1513298851962" expanded="true" signature="3083:3085" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Store.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedQueue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#117#134#0" expanded="true" />
+            <marker date="1513301125321" expanded="true" signature="469:975" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedNodeCustomerWaiting.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedQueue.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="232">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="e#45#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="86" column="27" lean-forward="false" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+          <folding>
+            <marker date="1513301125335" expanded="true" signature="486:519" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomerWaiting.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#51#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomerWaiting.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#48#65#0" expanded="true" />
           </folding>
         </state>
       </provider>

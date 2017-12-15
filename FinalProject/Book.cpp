@@ -75,11 +75,21 @@ void Book::addCustomerWaiting(std::string name, std::string contactPref, std::st
 
 }
 
-std::string Book::getCustomerWaitingList(){
+void Book::getCustomerWaiting(){
     //TODO...maybe, needs to be tested
-    CustomerWaiting*temp=waitingList.dequeue();
-    std::string nextinline=temp->toString();
-    return
+    CustomerWaiting* temp=waitingList.dequeue();
+
+    std::cout<<"{ "<< temp->getName()<<", ";
+
+    if(temp->getContactPref() == "CALL"){
+        std::cout<<"CALL, Phone Number: "<< temp->getPhoneNumber() <<"}"<<std::endl;
+    }else if(temp->getContactPref() == "TEXT"){
+        std::cout<<"TEXT, Phone Number: "<< temp->getPhoneNumber() <<"}"<<std::endl;
+    }else{
+        std::cout<<"EMAIL, Email: "<< temp->getEmail() <<"}"<<std::endl;
+    }
+
+
 }
 
 

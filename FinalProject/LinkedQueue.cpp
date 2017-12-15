@@ -39,7 +39,7 @@ LinkedQueue::~LinkedQueue(){
 
 
 //adds an item to the end of the queue
-void LinkedQueue::enqueue(CustomerWaiting* item){
+void LinkedQueue::enqueue(CustomerWaiting item){
     LinkedNodeCustomerWaiting* newNode = new LinkedNodeCustomerWaiting(item);
     //if front is nullptr, end should be nullptr too
     if (front == nullptr){

@@ -4,7 +4,7 @@
 #include "LinkedNodeCustomerWaiting.h"
 
 
-LinkedNodeCustomerWaiting::LinkedNodeCustomerWaiting(CustomerWaiting *item){
+LinkedNodeCustomerWaiting::LinkedNodeCustomerWaiting(CustomerWaiting item){
     this->item = item;
     next = nullptr;
 }
