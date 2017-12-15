@@ -11,9 +11,9 @@
 
 
 LinkedListInventory::LinkedListInventory() {
-    first= nullptr;
-    last = nullptr;
-    bookCount=0;
+    this->first= nullptr;
+    this->last = nullptr;
+    this->bookCount=1;
 }
 
 LinkedListInventory:: ~LinkedListInventory(){}
@@ -31,23 +31,28 @@ void LinkedListInventory:: add() {
     std::cout<<"Enter number of copies wanted"<<std::endl;
     std::cin>>wantValue;
 
-    Book book1= Book(title, haveValue, wantValue);
-    LinkedNode* newNode = new LinkedNode(book1);
-    if (first == nullptr) {
+    Book book1 = Book(title, haveValue, wantValue);
 
-        first = newNode;
-        last = first;
-        first->getItem().toString();
+    LinkedNode* newNode = new LinkedNode(book1);
+
+    if (this->first == nullptr) {
+
+        this->first = newNode;
+        this->last = first;
+
+        //this is to check if we actually added a book
+        this->first->getItem().toString();
     }
     else {
 
-        last->setNext(newNode);
-        last = newNode;
+        this->last->setNext(newNode);
+        this->last = newNode;
 //            LinkedNode *newNode = new LinkedNode(new Book(title, haveValue, wantValue));
 //            LinkedNode *temp = last;
 //            temp->setNext(newNode);
 //            last = newNode;
         }
+    this->bookCount++;
     }
 
 void LinkedListInventory::modify() {
@@ -98,6 +103,7 @@ void LinkedListInventory::inquire() {
     LinkedNode* temp = first;
 
     while (temp != nullptr){
+        std::cout<<"TEST";
         Book book= temp->getItem();
         if (book.getTitle() == title){
             book.toString();
@@ -106,6 +112,17 @@ void LinkedListInventory::inquire() {
         }
         temp=temp->getNext();
     }
+
+//    for(int i = 0; i < bookCount; i++){
+//        std::cout<<"TEST";
+//        Book book= temp->getItem();
+//        if (book.getTitle() == title){
+//            book.toString();
+////            std::string info=book.toString();
+////            std::cout<<info<<std::endl;
+//        }
+//        temp=temp->getNext();
+//    }
 }
 
 

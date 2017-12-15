@@ -6,11 +6,10 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-
+    Store *MyStore = new Store();
     while(1) {
 
-        Store *MyStore = new Store();
-
+        
         std::string command;
 
         std::cout << "enter a command:";
@@ -18,14 +17,16 @@ int main() {
 
         MyStore->getCommand(command);
     }
-
-    std::string title = "Harry Potter";
-    int haveValue = 5;
-    int wantValue = 11;
-
-    Book harryPotter = Book(title,haveValue,wantValue);
-
-    std::cout<<"Have Value (should be "<< haveValue<<"): "<<harryPotter.getHaveValue()<<std::endl;
+//
+//    std::string title = "Harry Potter";
+//    int haveValue = 5;
+//    int wantValue = 11;
+//
+//    Book harryPotter = Book(title,haveValue,wantValue);
+//
+//    harryPotter.toString();
+//
+//    std::cout<<"Have Value (should be "<< haveValue<<"): "<<harryPotter.getHaveValue()<<std::endl;
 
 
 

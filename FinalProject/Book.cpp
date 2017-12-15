@@ -11,10 +11,10 @@
 //did it work?
 
 Book::Book() {
-    title = "";
-    wantValue = 0;
-    haveValue = 0;
-    LinkedQueue waitingList;
+//    title = "";
+//    wantValue = 0;
+//    haveValue = 0;
+//    LinkedQueue waitingList;
 }
 
 
@@ -33,7 +33,11 @@ Book::Book(const Book& bookToCopy){
 }
 
 Book& Book::operator = (const Book& bookToCopy){
-    //TODO
+    if(this != &bookToCopy){
+        this->title = bookToCopy.title;
+        this->wantValue = bookToCopy.wantValue;
+        this->haveValue = bookToCopy.haveValue;
+    }
     return *this;
 }
 
@@ -58,7 +62,7 @@ std::string Book::getTitle() { return this->title; }
 
 void Book::toString(){
     //TODO...maybe, needs to be tested
-    std::string myString = "{ Title: " + this->title + ", WantValue: " + std::to_string(this->wantValue) + ", HaveValue: " + std::to_string(this->haveValue)+ "}";
+    //std::string myString = "{ Title: " + this->title + ", WantValue: " + std::to_string(this->wantValue) + ", HaveValue: " + std::to_string(this->haveValue)+ "}";
 //    myString += this->title;
 //    myString += ", WantValue: ";
 //    myString += this->wantValue;
@@ -66,7 +70,7 @@ void Book::toString(){
 //    myString += this->haveValue;
 //    myString += "}";
 
-    std::cout<<myString<<std::endl;
+    std::cout<<"{ Title: " << this->title << ", WantValue: " << std::to_string(this->wantValue) << ", HaveValue: " << std::to_string(this->haveValue) << "}"<<std::endl;
 
     //return myString;
 

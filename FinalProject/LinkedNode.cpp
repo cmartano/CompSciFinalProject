@@ -10,8 +10,8 @@ LinkedNode::LinkedNode(Book item){
 }
 
 LinkedNode::LinkedNode(const LinkedNode& nodeToCopy){
-    item = nodeToCopy.item;
-    next = nullptr;
+    this->item = nodeToCopy.item;
+    this->next = nodeToCopy.next;
 }
 
 Book  LinkedNode::getItem(){
