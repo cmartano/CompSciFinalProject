@@ -30,7 +30,7 @@ void LinkedListInventory:: add() {
 
     Book book1= Book(title, haveValue, wantValue);
     LinkedNode* newNode = new LinkedNode(book1);
-    if (first != nullptr) {
+    if (first == nullptr) {
         first = newNode;
         last = first;
     }
