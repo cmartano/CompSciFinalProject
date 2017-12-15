@@ -1,10 +1,15 @@
 #include <iostream>
 #include "Book.h"
+#include "Store.h"
 
 
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
+
+    Store* MyStore= new Store();
+
+
 
 //    std::string title = "Harry Potter";
 //    int haveValue = 5;

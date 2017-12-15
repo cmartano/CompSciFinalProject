@@ -7,17 +7,17 @@
 #include "CustomerWaiting.h"
 
 Book::Book() {
-    this->title = "";
-    this->wantValue = 0;
-    this->haveValue = 0;
+    title = "";
+    wantValue = 0;
+    haveValue = 0;
     LinkedQueue waitingList;
 }
 
 
 Book::Book(std::string title, int haveValue, int wantValue) {
-    this->title = title;
-    this->wantValue = wantValue;
-    this->haveValue = haveValue;
+    title = title;
+    wantValue = wantValue;
+    haveValue = haveValue;
     LinkedQueue waitingList;
 }
 

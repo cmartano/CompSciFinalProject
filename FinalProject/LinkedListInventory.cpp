@@ -7,6 +7,7 @@
 #include "Book.h"
 #include <iostream>
 #include <fstream>
+#include <string>
 
 
 LinkedListInventory::LinkedListInventory() {
@@ -47,7 +48,8 @@ void LinkedListInventory::modify() {
     std::cout<<"Enter a title"<<std::endl;
     std::cin>>title;
     while (first != nullptr){
-        if (first->getItem()->getTitle==title){
+        Book* book =first->getItem();
+        if (book->getTitle().compare(title)==0){
             int wantval;
             std::cout<<"Enter a new want value:"<<std::endl;
             std::cin>>wantval;
@@ -66,8 +68,9 @@ void LinkedListInventory::sell() {
     std::cin>>title;
 
     while (first != nullptr){
+        Book* book =first->getItem();
 
-        if (first->getItem()->getTitle==title){
+        if (book->getTitle().compare(title)==0){
 
             first->getItem()->setHaveValue((first->getItem()->getHaveValue())-1);
         }
@@ -94,15 +97,25 @@ void LinkedListInventory:: order(){
     int itemsRequired;
     std::string title;
     std::ofstream myFile;
-    myFile.open("/users/ChristianMartano/Downloads/Inventory.txt");
+    myFile.open("Inventory.txt");
     while(first->getNext()!=nullptr){
         if(first->getItem()->getHaveValue != first->getItem()->getWantValue){
             itemsRequired=((first->getItem()->getWantValue())-(first->getItem()->getHaveValue()));
             itemsRequired=itemsRequired^2;
             title=first->getItem()->getTitle();
-            myFile<<title<<" | "<<itemsRequired<<"\n";
+            myFile<<title<<" | "<<itemsRequired<<std::endl;
         }//if
     }//while
+    myFile.close();
+}
+
+void LinkedListInventory::delivery() {
+    std::string line;
+    std::ifstream myFile;
+    myFile.open("Inventory.txt");
+    getline(myFile, line);
+
+
 }
 
 

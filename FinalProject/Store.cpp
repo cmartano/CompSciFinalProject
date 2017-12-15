@@ -23,6 +23,7 @@ void Store::help(){
     std::cout<<"O - create a book order"<<std::endl;
     std::cout<<"D - take info from a delivery file"<<std::endl;
     std::cout<<"R - write a return invoice"<<std::endl;
+    std::cout<<"Q - Quit and Save"<<std::endl;
 
 }
 

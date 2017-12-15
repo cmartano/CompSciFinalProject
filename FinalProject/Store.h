@@ -32,13 +32,6 @@ public:
     void help();
 
     /**
-     * provides a summary of the information of a given title
-     * it should print: {Title, haveValue, wantValue. WaitingList: ___, ___, ...}
-     * (it should print the waiting list in order of queue)
-     */
-    void inquire();
-
-    /**
      * print an alphabetical list of all the titles
      */
     void list();
@@ -62,14 +55,6 @@ public:
      */
     void delivery();
 
-    /**
-     * Write a return invoice to a file specifying all books to be returned.
-     * For each book, copies should be returned if the have value is higher
-     * than the want value. The system should change the have value to equal
-     * the want value, and the output file should then give the list of books
-     * to take off the shelf and return.
-     */
-    void returnInvoice();
 
     /**
      * Save the inventory and wait lists in a file and terminate execution.
