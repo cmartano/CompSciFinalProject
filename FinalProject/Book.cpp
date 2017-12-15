@@ -70,7 +70,7 @@ std::string Book::toString(){
 void Book::addCustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email){
     //TODO...maybe, needs to be tested
 
-    CustomerWaiting personToAdd = CustomerWaiting(name, contactPref, phoneNum, email);
+    CustomerWaiting personToAdd = CustomerWaiting (name, contactPref, phoneNum, email);
     waitingList.enqueue(personToAdd);
 
 }
@@ -88,8 +88,6 @@ void Book::getCustomerWaiting(){
     }else{
         std::cout<<"EMAIL, Email: "<< temp->getEmail() <<"}"<<std::endl;
     }
-
-
 }
 
 
