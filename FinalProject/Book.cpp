@@ -9,17 +9,17 @@
 //did it work?
 
 Book::Book() {
-    title = "";
-    wantValue = 0;
-    haveValue = 0;
+    this->title = "";
+    this->wantValue = 0;
+    this->haveValue = 0;
     LinkedQueue waitingList;
 }
 
 
 Book::Book(std::string title, int haveValue, int wantValue) {
-    title = title;
-    wantValue = wantValue;
-    haveValue = haveValue;
+    this->title = title;
+    this->wantValue = wantValue;
+    this->haveValue = haveValue;
     LinkedQueue waitingList;
 }
 
@@ -41,9 +41,9 @@ Book::~Book(){
 
 int Book::getWantValue() { return this->wantValue; }
 
-int Book::getHaveValue() { return haveValue; }
+int Book::getHaveValue() { return this->haveValue; }
 
-void Book::setHaveValue(int ui){ haveValue=ui; }
+void Book::setHaveValue(int ui){ this->haveValue=ui; }
 
 void Book::setWantValue(int ui){ haveValue=ui; }
 
