@@ -18,8 +18,8 @@ private:
 public:
 
     CustomerWaiting(std::string name, std::string contactPref, std::string phoneNum, std::string email);
-    CustomerWaiting(const CustomerWaiting& customerWaitingToCopy);
-    CustomerWaiting& operator = (const CustomerWaiting& customerWaitingToCopy);
+    //CustomerWaiting(const CustomerWaiting& customerWaitingToCopy);
+    //CustomerWaiting& operator = (const CustomerWaiting& customerWaitingToCopy);
     ~CustomerWaiting();
 
     /**

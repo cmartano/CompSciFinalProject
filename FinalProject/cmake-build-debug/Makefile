@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject
+CMAKE_SOURCE_DIR = /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,33 +177,6 @@ CustomerWaiting.cpp.s:
 	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.s
 .PHONY : CustomerWaiting.cpp.s
 
-LinkedListInventory.o: LinkedListInventory.cpp.o
-
-.PHONY : LinkedListInventory.o
-
-# target to build an object file
-LinkedListInventory.cpp.o:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o
-.PHONY : LinkedListInventory.cpp.o
-
-LinkedListInventory.i: LinkedListInventory.cpp.i
-
-.PHONY : LinkedListInventory.i
-
-# target to preprocess a source file
-LinkedListInventory.cpp.i:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.i
-.PHONY : LinkedListInventory.cpp.i
-
-LinkedListInventory.s: LinkedListInventory.cpp.s
-
-.PHONY : LinkedListInventory.s
-
-# target to generate assembly for a file
-LinkedListInventory.cpp.s:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.s
-.PHONY : LinkedListInventory.cpp.s
-
 LinkedNode.o: LinkedNode.cpp.o
 
 .PHONY : LinkedNode.o
@@ -230,6 +203,60 @@ LinkedNode.s: LinkedNode.cpp.s
 LinkedNode.cpp.s:
 	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedNode.cpp.s
 .PHONY : LinkedNode.cpp.s
+
+LinkedNodeCustomerWaiting.o: LinkedNodeCustomerWaiting.cpp.o
+
+.PHONY : LinkedNodeCustomerWaiting.o
+
+# target to build an object file
+LinkedNodeCustomerWaiting.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o
+.PHONY : LinkedNodeCustomerWaiting.cpp.o
+
+LinkedNodeCustomerWaiting.i: LinkedNodeCustomerWaiting.cpp.i
+
+.PHONY : LinkedNodeCustomerWaiting.i
+
+# target to preprocess a source file
+LinkedNodeCustomerWaiting.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.i
+.PHONY : LinkedNodeCustomerWaiting.cpp.i
+
+LinkedNodeCustomerWaiting.s: LinkedNodeCustomerWaiting.cpp.s
+
+.PHONY : LinkedNodeCustomerWaiting.s
+
+# target to generate assembly for a file
+LinkedNodeCustomerWaiting.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.s
+.PHONY : LinkedNodeCustomerWaiting.cpp.s
+
+LinkedQueue.o: LinkedQueue.cpp.o
+
+.PHONY : LinkedQueue.o
+
+# target to build an object file
+LinkedQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o
+.PHONY : LinkedQueue.cpp.o
+
+LinkedQueue.i: LinkedQueue.cpp.i
+
+.PHONY : LinkedQueue.i
+
+# target to preprocess a source file
+LinkedQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedQueue.cpp.i
+.PHONY : LinkedQueue.cpp.i
+
+LinkedQueue.s: LinkedQueue.cpp.s
+
+.PHONY : LinkedQueue.s
+
+# target to generate assembly for a file
+LinkedQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/LinkedQueue.cpp.s
+.PHONY : LinkedQueue.cpp.s
 
 Store.o: Store.cpp.o
 
@@ -300,12 +327,15 @@ help:
 	@echo "... CustomerWaiting.o"
 	@echo "... CustomerWaiting.i"
 	@echo "... CustomerWaiting.s"
-	@echo "... LinkedListInventory.o"
-	@echo "... LinkedListInventory.i"
-	@echo "... LinkedListInventory.s"
 	@echo "... LinkedNode.o"
 	@echo "... LinkedNode.i"
 	@echo "... LinkedNode.s"
+	@echo "... LinkedNodeCustomerWaiting.o"
+	@echo "... LinkedNodeCustomerWaiting.i"
+	@echo "... LinkedNodeCustomerWaiting.s"
+	@echo "... LinkedQueue.o"
+	@echo "... LinkedQueue.i"
+	@echo "... LinkedQueue.s"
 	@echo "... Store.o"
 	@echo "... Store.i"
 	@echo "... Store.s"
