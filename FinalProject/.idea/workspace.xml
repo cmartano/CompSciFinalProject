@@ -18,9 +18,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book.h" afterPath="$PROJECT_DIR$/Book.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomerWaiting.h" afterPath="$PROJECT_DIR$/CustomerWaiting.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.cpp" afterPath="$PROJECT_DIR$/Store.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Book.cpp" afterPath="$PROJECT_DIR$/Book.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" />
@@ -85,12 +83,12 @@
       <file leaf-file-name="Book.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Book.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
                 <element signature="e#48#65#0" expanded="true" />
-                <marker date="1513301439229" expanded="true" signature="1427:1518" ph="{...}" />
-                <marker date="1513301439229" expanded="true" signature="2116:2118" ph="{...}" />
+                <marker date="1513304102375" expanded="true" signature="1443:1534" ph="{...}" />
+                <marker date="1513304102375" expanded="true" signature="2132:2134" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -180,7 +178,6 @@
         <option value="$PROJECT_DIR$/LinkedQueue.h" />
         <option value="$PROJECT_DIR$/LinkedNodeCustomerWaiting.cpp" />
         <option value="$PROJECT_DIR$/LinkedNodeCustomerWaiting.h" />
-        <option value="$PROJECT_DIR$/Book.cpp" />
         <option value="$PROJECT_DIR$/LinkedNode.cpp" />
         <option value="$PROJECT_DIR$/LinkedNode.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
@@ -188,6 +185,7 @@
         <option value="$PROJECT_DIR$/Book.h" />
         <option value="$PROJECT_DIR$/CustomerWaiting.h" />
         <option value="$PROJECT_DIR$/Store.cpp" />
+        <option value="$PROJECT_DIR$/Book.cpp" />
       </list>
     </option>
   </component>
@@ -401,7 +399,7 @@
       <workItem from="1513176935421" duration="4837000" />
       <workItem from="1513262442756" duration="101000" />
       <workItem from="1513297038001" duration="3785000" />
-      <workItem from="1513301546556" duration="2263000" />
+      <workItem from="1513301546556" duration="2461000" />
     </task>
     <task id="LOCAL-00001" summary="i added //hey">
       <created>1511887801252</created>
@@ -578,11 +576,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513303670399</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Changed stuff regarding adding a book to the list">
+      <created>1513303912679</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1513303912679</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26830000" />
+    <option name="totallyTimeSpent" value="27028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,8 +705,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#65#0" expanded="true" />
-            <marker date="1513301439229" expanded="true" signature="1427:1518" ph="{...}" />
-            <marker date="1513301439229" expanded="true" signature="2116:2118" ph="{...}" />
+            <marker date="1513304102375" expanded="true" signature="1443:1534" ph="{...}" />
+            <marker date="1513304102375" expanded="true" signature="2132:2134" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -778,8 +783,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#65#0" expanded="true" />
-            <marker date="1513301439229" expanded="true" signature="1427:1518" ph="{...}" />
-            <marker date="1513301439229" expanded="true" signature="2116:2118" ph="{...}" />
+            <marker date="1513304102375" expanded="true" signature="1443:1534" ph="{...}" />
+            <marker date="1513304102375" expanded="true" signature="2132:2134" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -835,8 +840,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#65#0" expanded="true" />
-            <marker date="1513301439229" expanded="true" signature="1427:1518" ph="{...}" />
-            <marker date="1513301439229" expanded="true" signature="2116:2118" ph="{...}" />
+            <marker date="1513304102375" expanded="true" signature="1443:1534" ph="{...}" />
+            <marker date="1513304102375" expanded="true" signature="2132:2134" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1039,12 +1044,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Book.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="e#48#65#0" expanded="true" />
-            <marker date="1513301439229" expanded="true" signature="1427:1518" ph="{...}" />
-            <marker date="1513301439229" expanded="true" signature="2116:2118" ph="{...}" />
+            <marker date="1513304102375" expanded="true" signature="1443:1534" ph="{...}" />
+            <marker date="1513304102375" expanded="true" signature="2132:2134" ph="{...}" />
           </folding>
         </state>
       </provider>
