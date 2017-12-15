@@ -8,9 +8,9 @@
 
 
 Store::Store() {
-    this->myInventory = new LinkedListInventory();
-    this->titlesCount=0;
-    this->arrayOfTitles= new std::string[titlesCount];
+    myInventory = new LinkedListInventory();
+    titlesCount=0;
+    arrayOfTitles= new std::string[titlesCount];
 }
 
 void Store::help(){
@@ -44,7 +44,7 @@ void Store::getCommand(std::string command) {
         list();
     }
 
-    else if (command=="H"){
+    else if (command == "H") {
         help();
     }
 

@@ -2,7 +2,6 @@
 // Created by Harrison Kesel 12/14/17.
 //
 #include "LinkedNodeCustomerWaiting.h"
-#include "CustomerWaiting.h"
 
 
 

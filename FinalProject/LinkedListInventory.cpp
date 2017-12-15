@@ -16,10 +16,13 @@ LinkedListInventory::LinkedListInventory() {
     bookCount=0;
 }
 
+LinkedListInventory:: ~LinkedListInventory(){}
+
 void LinkedListInventory:: add() {
     std::string title;
     std::cout<<"Enter a title"<<std::endl;
     std::cin>>title;
+
     int haveValue;
     std::cout<<"Enter number of copies needed"<<std::endl;
     std::cin>>haveValue;
@@ -31,10 +34,11 @@ void LinkedListInventory:: add() {
     Book book1= Book(title, haveValue, wantValue);
     LinkedNode* newNode = new LinkedNode(book1);
     if (first == nullptr) {
+
         first = newNode;
         last = first;
+        first->getItem().toString();
     }
-
     else {
 
         last->setNext(newNode);
@@ -71,11 +75,11 @@ void LinkedListInventory::sell() {
     std::cin>>title;
 
     while (first != nullptr){
-        Book* book =first->getItem();
+        Book book =first->getItem();
 
-        if (book->getTitle().compare(title)==0){
+        if (book.getTitle().compare(title)==0){
 
-            first->getItem()->setHaveValue((first->getItem()->getHaveValue())-1);
+            first->getItem().setHaveValue((first->getItem().getHaveValue())-1);
         }
 
         else{
@@ -89,15 +93,18 @@ void LinkedListInventory::inquire() {
     std::cout<<"Enter a title"<<std::endl;
     std::cin>>title;
 
-    Book* book= first->getItem();
+    //Book book= first->getItem();
 
-    while (first!= nullptr){
-        Book* book= first->getItem();
-        if (book->getTitle().compare(title)==0){
-            std::string info=book->toString();
-            std::cout<<info<<std::endl;
+    LinkedNode* temp = first;
+
+    while (temp != nullptr){
+        Book book= temp->getItem();
+        if (book.getTitle() == title){
+            book.toString();
+//            std::string info=book.toString();
+//            std::cout<<info<<std::endl;
         }
-        first=first->getNext();
+        temp=temp->getNext();
     }
 }
 
@@ -108,9 +115,9 @@ void LinkedListInventory:: order(){
     std::ofstream myFile;
     myFile.open("Inventory.txt");
     while(first!=nullptr){
-        if((first->getItem()->getWantValue())-(first->getItem()->getHaveValue())>0){
-            itemsRequired=((first->getItem()->getWantValue())-(first->getItem()->getHaveValue()));
-            title=first->getItem()->getTitle();
+        if((first->getItem().getWantValue())-(first->getItem().getHaveValue())>0){
+            itemsRequired=((first->getItem().getWantValue())-(first->getItem().getHaveValue()));
+            title=first->getItem().getTitle();
             myFile<<title<<" | "<<itemsRequired<<std::endl;
         }//if
         first=first->getNext();
@@ -135,9 +142,9 @@ void LinkedListInventory::returnInvoice(){
     std::ofstream myFile;
     myFile.open("Inventory.txt");
     while(first!=nullptr){
-        if((first->getItem()->getWantValue())-(first->getItem()->getHaveValue())<0){
-            itemsRequired=((first->getItem()->getHaveValue())-(first->getItem()->getWantValue()));
-            title=first->getItem()->getTitle();
+        if((first->getItem().getWantValue())-(first->getItem().getHaveValue())<0){
+            itemsRequired=((first->getItem().getHaveValue())-(first->getItem().getWantValue()));
+            title=first->getItem().getTitle();
             myFile<<title<<" | "<<itemsRequired<<std::endl;
         }//if
         first=first->getNext();
@@ -145,6 +152,7 @@ void LinkedListInventory::returnInvoice(){
     myFile.close();
 }
 
+void LinkedListInventory::quit() {}
 
 
 

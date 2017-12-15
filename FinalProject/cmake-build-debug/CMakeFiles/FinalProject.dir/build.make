@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject
+CMAKE_SOURCE_DIR = /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FinalProject.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/FinalProject.dir/flags.make
 
 CMakeFiles/FinalProject.dir/main.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinalProject.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/main.cpp.o -c /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinalProject.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/main.cpp.o -c /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/main.cpp
 
 CMakeFiles/FinalProject.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/main.cpp > CMakeFiles/FinalProject.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/main.cpp > CMakeFiles/FinalProject.dir/main.cpp.i
 
 CMakeFiles/FinalProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/main.cpp -o CMakeFiles/FinalProject.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/main.cpp -o CMakeFiles/FinalProject.dir/main.cpp.s
 
 CMakeFiles/FinalProject.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/FinalProject.dir/main.cpp.o.provides.build: CMakeFiles/FinalProject.d
 
 CMakeFiles/FinalProject.dir/Book.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/Book.cpp.o: ../Book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalProject.dir/Book.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/Book.cpp.o -c /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/Book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalProject.dir/Book.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/Book.cpp.o -c /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Book.cpp
 
 CMakeFiles/FinalProject.dir/Book.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/Book.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/Book.cpp > CMakeFiles/FinalProject.dir/Book.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Book.cpp > CMakeFiles/FinalProject.dir/Book.cpp.i
 
 CMakeFiles/FinalProject.dir/Book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/Book.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/Book.cpp -o CMakeFiles/FinalProject.dir/Book.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Book.cpp -o CMakeFiles/FinalProject.dir/Book.cpp.s
 
 CMakeFiles/FinalProject.dir/Book.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/FinalProject.dir/Book.cpp.o.provides.build: CMakeFiles/FinalProject.d
 
 CMakeFiles/FinalProject.dir/Store.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/Store.cpp.o: ../Store.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinalProject.dir/Store.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/Store.cpp.o -c /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/Store.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinalProject.dir/Store.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/Store.cpp.o -c /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Store.cpp
 
 CMakeFiles/FinalProject.dir/Store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/Store.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/Store.cpp > CMakeFiles/FinalProject.dir/Store.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Store.cpp > CMakeFiles/FinalProject.dir/Store.cpp.i
 
 CMakeFiles/FinalProject.dir/Store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/Store.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/Store.cpp -o CMakeFiles/FinalProject.dir/Store.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Store.cpp -o CMakeFiles/FinalProject.dir/Store.cpp.s
 
 CMakeFiles/FinalProject.dir/Store.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/FinalProject.dir/Store.cpp.o.provides.build: CMakeFiles/FinalProject.
 
 CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o: ../CustomerWaiting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o -c /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/CustomerWaiting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o -c /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/CustomerWaiting.cpp
 
 CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/CustomerWaiting.cpp > CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/CustomerWaiting.cpp > CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.i
 
 CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/CustomerWaiting.cpp -o CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/CustomerWaiting.cpp -o CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.s
 
 CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/FinalProject.dir/CustomerWaiting.cpp.o.provides.build: CMakeFiles/Fin
 
 CMakeFiles/FinalProject.dir/LinkedNode.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/LinkedNode.cpp.o: ../LinkedNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinalProject.dir/LinkedNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/LinkedNode.cpp.o -c /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinalProject.dir/LinkedNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/LinkedNode.cpp.o -c /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedNode.cpp
 
 CMakeFiles/FinalProject.dir/LinkedNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/LinkedNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedNode.cpp > CMakeFiles/FinalProject.dir/LinkedNode.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedNode.cpp > CMakeFiles/FinalProject.dir/LinkedNode.cpp.i
 
 CMakeFiles/FinalProject.dir/LinkedNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/LinkedNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedNode.cpp -o CMakeFiles/FinalProject.dir/LinkedNode.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedNode.cpp -o CMakeFiles/FinalProject.dir/LinkedNode.cpp.s
 
 CMakeFiles/FinalProject.dir/LinkedNode.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/FinalProject.dir/LinkedNode.cpp.o.provides.build: CMakeFiles/FinalPro
 
 CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o: ../LinkedNodeCustomerWaiting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o -c /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedNodeCustomerWaiting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o -c /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedNodeCustomerWaiting.cpp
 
 CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedNodeCustomerWaiting.cpp > CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedNodeCustomerWaiting.cpp > CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.i
 
 CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedNodeCustomerWaiting.cpp -o CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedNodeCustomerWaiting.cpp -o CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.s
 
 CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/FinalProject.dir/LinkedNodeCustomerWaiting.cpp.o.provides.build: CMak
 
 CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o: ../LinkedQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o -c /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o -c /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedQueue.cpp
 
 CMakeFiles/FinalProject.dir/LinkedQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/LinkedQueue.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedQueue.cpp > CMakeFiles/FinalProject.dir/LinkedQueue.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedQueue.cpp > CMakeFiles/FinalProject.dir/LinkedQueue.cpp.i
 
 CMakeFiles/FinalProject.dir/LinkedQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/LinkedQueue.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedQueue.cpp -o CMakeFiles/FinalProject.dir/LinkedQueue.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedQueue.cpp -o CMakeFiles/FinalProject.dir/LinkedQueue.cpp.s
 
 CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o.provides.build: CMakeFiles/FinalPr
 
 CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o: ../LinkedListInventory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o -c /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedListInventory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o -c /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedListInventory.cpp
 
 CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedListInventory.cpp > CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedListInventory.cpp > CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.i
 
 CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/LinkedListInventory.cpp -o CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/LinkedListInventory.cpp -o CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.s
 
 CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o.requires:
 
@@ -273,7 +273,7 @@ FinalProject: CMakeFiles/FinalProject.dir/LinkedQueue.cpp.o
 FinalProject: CMakeFiles/FinalProject.dir/LinkedListInventory.cpp.o
 FinalProject: CMakeFiles/FinalProject.dir/build.make
 FinalProject: CMakeFiles/FinalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable FinalProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable FinalProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FinalProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/FinalProject.dir/clean:
 .PHONY : CMakeFiles/FinalProject.dir/clean
 
 CMakeFiles/FinalProject.dir/depend:
-	cd /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug /Users/ChristianMartano/Desktop/CLionProjects/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug /Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FinalProject.dir/depend
 

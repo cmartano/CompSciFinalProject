@@ -78,7 +78,7 @@ public:
      * Prints out information of the book in the format: {title, haveValue, wantValue}
      * @return
      */
-    std::string toString();
+    void toString();
 
 
 

@@ -5,13 +5,15 @@
 #include "Book.h"
 #include "LinkedQueue.h"
 #include "CustomerWaiting.h"
+#include <iostream>
+#include <string>
 
 //did it work?
 
 Book::Book() {
-    this->title = "";
-    this->wantValue = 0;
-    this->haveValue = 0;
+    title = "";
+    wantValue = 0;
+    haveValue = 0;
     LinkedQueue waitingList;
 }
 
@@ -54,18 +56,19 @@ std::string Book::getTitle() { return this->title; }
 
 
 
-std::string Book::toString(){
+void Book::toString(){
     //TODO...maybe, needs to be tested
-    std::string myString = "{ Title: ";
-    myString += this->title;
-    myString += ", WantValue: ";
-    myString += this->wantValue;
-    myString += ", HaveValue: ";
-    myString += this->haveValue;
-    myString += "}";
+    std::string myString = "{ Title: " + this->title + ", WantValue: " + std::to_string(this->wantValue) + ", HaveValue: " + std::to_string(this->haveValue)+ "}";
+//    myString += this->title;
+//    myString += ", WantValue: ";
+//    myString += this->wantValue;
+//    myString += ", HaveValue: ";
+//    myString += this->haveValue;
+//    myString += "}";
 
+    std::cout<<myString<<std::endl;
 
-    return myString;
+    //return myString;
 
 }
 
