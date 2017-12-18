@@ -41,8 +41,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -269,7 +269,9 @@
       <workItem from="1513262442756" duration="101000" />
       <workItem from="1513297038001" duration="3785000" />
       <workItem from="1513301546556" duration="9707000" />
-      <workItem from="1513541507081" duration="20000" />
+      <workItem from="1513541507081" duration="70000" />
+      <workItem from="1513608220277" duration="23000" />
+      <workItem from="1513631586476" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="i added //hey">
       <created>1511887801252</created>
@@ -509,11 +511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513311635595</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Im just committing to make sure I have committed.">
+      <created>1513541559088</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1513541559088</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34294000" />
+    <option name="totallyTimeSpent" value="34374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,7 +537,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17689823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18174475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149931" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28473178" sideWeight="0.5129241" order="8" side_tool="true" content_ui="tabs" />
@@ -590,7 +599,8 @@
     <MESSAGE value="I created a linkednodecustomerwaiting for the customerwaiting queue to work properly." />
     <MESSAGE value="Changed the indef things to the correct file names" />
     <MESSAGE value="Changed stuff regarding adding a book to the list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed stuff regarding adding a book to the list" />
+    <MESSAGE value="Im just committing to make sure I have committed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Im just committing to make sure I have committed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -986,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
