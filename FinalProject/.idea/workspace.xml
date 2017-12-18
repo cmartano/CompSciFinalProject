@@ -13,11 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75f22176-5b42-4b96-9a00-7609a8bc7954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inventory.h" afterPath="$PROJECT_DIR$/Inventory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedListInventory.cpp" afterPath="$PROJECT_DIR$/LinkedListInventory.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedListInventory.h" afterPath="$PROJECT_DIR$/LinkedListInventory.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.cpp" afterPath="$PROJECT_DIR$/Store.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.h" afterPath="$PROJECT_DIR$/Store.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -251,7 +246,7 @@
       <workItem from="1513301546556" duration="9707000" />
       <workItem from="1513541507081" duration="70000" />
       <workItem from="1513608220277" duration="23000" />
-      <workItem from="1513631586476" duration="1007000" />
+      <workItem from="1513631586476" duration="1084000" />
     </task>
     <task id="LOCAL-00001" summary="i added //hey">
       <created>1511887801252</created>
@@ -505,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513631597047</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="I started working on the arrayOfTitles this. made it so that when we add a book it will also add a title. But it doesnt yet work because we havent implemented the ArrayList functions yet.">
+      <created>1513632669485</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1513632669485</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35374000" />
+    <option name="totallyTimeSpent" value="35451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,7 +589,8 @@
     <MESSAGE value="Changed the indef things to the correct file names" />
     <MESSAGE value="Changed stuff regarding adding a book to the list" />
     <MESSAGE value="Im just committing to make sure I have committed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Im just committing to make sure I have committed." />
+    <MESSAGE value="I started working on the arrayOfTitles this. made it so that when we add a book it will also add a title. But it doesnt yet work because we havent implemented the ArrayList functions yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="I started working on the arrayOfTitles this. made it so that when we add a book it will also add a title. But it doesnt yet work because we havent implemented the ArrayList functions yet." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
