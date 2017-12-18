@@ -18,7 +18,7 @@ LinkedListInventory::LinkedListInventory() {
 
 LinkedListInventory:: ~LinkedListInventory(){}
 
-void LinkedListInventory:: add() {
+std::string LinkedListInventory:: add() {
     std::string title;
     std::cout<<"Enter a title"<<std::endl;
     std::cin>>title;
@@ -53,6 +53,10 @@ void LinkedListInventory:: add() {
 //            last = newNode;
         }
     this->bookCount++;
+
+
+    //this is so we can add the title to the arrayOfTitles in the store
+    return title;
     }
 
 void LinkedListInventory::modify() {
@@ -93,10 +97,15 @@ void LinkedListInventory::sell() {
     }
 }
 
+
+
+
+
 void LinkedListInventory::inquire() {
     std::string title;
     std::cout<<"Enter a title"<<std::endl;
     std::cin>>title;
+
 
     //Book book= first->getItem();
 

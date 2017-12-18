@@ -33,6 +33,15 @@ void Store::list() {
     }
 }
 
+//returns true if the title already exists, false if not.
+bool Store::checkTitle(std::string title){
+    for(int i = 0; i <= titlesCount; i++){
+        if(arrayOfTitles[i] == title){
+            return true;
+        }
+    }
+    return false;
+}
 
 void Store::getCommand(std::string command) {
 
@@ -49,7 +58,14 @@ void Store::getCommand(std::string command) {
     }
 
     else if (command == "A") {
-        myInventory->add();
+        //myInventory->add();
+        std::string title = myInventory->add();
+
+        if(checkTitle(title) != true){
+            //This needs to be made to work with array lists so we dont have to make a whole new function to get arrayLists working.
+            arrayOfTitles[titlesCount+1] = title;
+        }
+
     }
 
     else if (command == "M") {

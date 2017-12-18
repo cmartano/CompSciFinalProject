@@ -37,6 +37,8 @@ public:
     void list();
 
 
+    //returns true if the title already exists, false if not.
+    bool checkTitle(std::string title);
 
     /**
      * Take information from a file listing the delivery shipment of books.

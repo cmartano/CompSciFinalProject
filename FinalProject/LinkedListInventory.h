@@ -52,7 +52,7 @@ public:
      * @param haveValue
      * @param wantValue
      */
-    void add();
+    std::string add();
 
     /**
      * Modify the want value for the specified title. Display current want and have values,

@@ -21,7 +21,7 @@ public:
      * @param haveValue
      * @param wantValue
      */
-    virtual void add() = 0;
+    virtual std::string add() = 0;
 
     /**
    * provides a summary of the information of a given title
