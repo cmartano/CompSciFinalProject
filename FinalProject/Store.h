@@ -9,6 +9,7 @@
 #include <string>
 #include "LinkedNode.h"
 #include "Inventory.h"
+#include "ArrayList.h"
 #include <iostream>
 
 class Store{
@@ -16,7 +17,7 @@ class Store{
 private:
     Inventory* myInventory;
     int titlesCount;
-    std::string* arrayOfTitles;
+    ArrayList* arrayOfTitles;
 
 public:
 
@@ -39,6 +40,9 @@ public:
 
     //returns true if the title already exists, false if not.
     bool checkTitle(std::string title);
+
+    //alphabetize the title as its put into the array of titles
+    void alphabetize();
 
     /**
      * Take information from a file listing the delivery shipment of books.

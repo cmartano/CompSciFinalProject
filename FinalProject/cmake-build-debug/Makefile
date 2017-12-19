@@ -123,6 +123,33 @@ FinalProject/fast:
 	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/build
 .PHONY : FinalProject/fast
 
+ArrayList.o: ArrayList.cpp.o
+
+.PHONY : ArrayList.o
+
+# target to build an object file
+ArrayList.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/ArrayList.cpp.o
+.PHONY : ArrayList.cpp.o
+
+ArrayList.i: ArrayList.cpp.i
+
+.PHONY : ArrayList.i
+
+# target to preprocess a source file
+ArrayList.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/ArrayList.cpp.i
+.PHONY : ArrayList.cpp.i
+
+ArrayList.s: ArrayList.cpp.s
+
+.PHONY : ArrayList.s
+
+# target to generate assembly for a file
+ArrayList.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/ArrayList.cpp.s
+.PHONY : ArrayList.cpp.s
+
 Book.o: Book.cpp.o
 
 .PHONY : Book.o
@@ -348,6 +375,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... FinalProject"
+	@echo "... ArrayList.o"
+	@echo "... ArrayList.i"
+	@echo "... ArrayList.s"
 	@echo "... Book.o"
 	@echo "... Book.i"
 	@echo "... Book.s"

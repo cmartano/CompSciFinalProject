@@ -5,12 +5,13 @@
 #include "Store.h"
 #include "LinkedListInventory.h"
 #include "Inventory.h"
+#include "ArrayList.h"
 
 
 Store::Store() {
     myInventory = new LinkedListInventory();
     titlesCount=0;
-    arrayOfTitles= new std::string[titlesCount];
+    arrayOfTitles = new ArrayList();
 }
 
 void Store::help(){
@@ -29,18 +30,51 @@ void Store::help(){
 
 void Store::list() {
     for (int i = 0; i <titlesCount ; ++i) {
-        std::cout<< arrayOfTitles[i]<<std::endl;
+        std::cout<< arrayOfTitles->getValueAt(i) <<std::endl;
     }
 }
 
 //returns true if the title already exists, false if not.
 bool Store::checkTitle(std::string title){
-    for(int i = 0; i <= titlesCount; i++){
-        if(arrayOfTitles[i] == title){
+
+        if(arrayOfTitles->find(title) != -1){
             return true;
+        }else {
+            return false;
+        }
+}
+
+void Store::alphabetize(){
+
+    int failCount = 0;
+
+    for (int i=0; i<titlesCount-1; i++){
+        if (arrayOfTitles->getValueAt(i) > arrayOfTitles->getValueAt(i+1)) {
+            failCount++;
         }
     }
-    return false;
+
+
+    while(failCount != 0){
+        for(int i = 0; i<titlesCount-1; i++){
+            if(arrayOfTitles->getValueAt(i) > arrayOfTitles->getValueAt(i+1)){
+                std::string temp = arrayOfTitles->removeValueAt(i+1);
+                arrayOfTitles->insertAt( arrayOfTitles->getValueAt(i) ,i+1) ;
+                arrayOfTitles->removeValueAt(i);
+                arrayOfTitles->insertAt(temp ,i);
+            }
+        }
+
+        failCount = 0;
+
+        for (int i=0; i<titlesCount-1; i++){
+            if (arrayOfTitles->getValueAt(i) > arrayOfTitles->getValueAt(i+1)) {
+                failCount++;
+            }
+        }
+    }
+
+
 }
 
 void Store::getCommand(std::string command) {
@@ -61,9 +95,11 @@ void Store::getCommand(std::string command) {
         //myInventory->add();
         std::string title = myInventory->add();
 
+        titlesCount++;
+
         if(checkTitle(title) != true){
-            //This needs to be made to work with array lists so we dont have to make a whole new function to get arrayLists working.
-            arrayOfTitles[titlesCount+1] = title;
+            arrayOfTitles->insertAtEnd(title);
+            alphabetize();
         }
 
     }

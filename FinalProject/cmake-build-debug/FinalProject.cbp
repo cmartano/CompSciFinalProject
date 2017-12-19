@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/ArrayList.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/ArrayList.h">
+			<Option target="FinalProject"/>
+		</Unit>
 		<Unit filename="/Users/harrisonkesel/Documents/CompSciFinalProject/FinalProject/Book.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
