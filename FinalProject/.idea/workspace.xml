@@ -11,13 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f22176-5b42-4b96-9a00-7609a8bc7954" name="Default" comment="I changed some code, and got the alphabetized list working.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArrayList.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArrayList.h" />
+    <list default="true" id="75f22176-5b42-4b96-9a00-7609a8bc7954" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.cpp" afterPath="$PROJECT_DIR$/Store.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.h" afterPath="$PROJECT_DIR$/Store.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/build.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject.dir/cmake_clean.cmake" />
@@ -289,7 +284,7 @@
       <workItem from="1513301546556" duration="9707000" />
       <workItem from="1513541507081" duration="70000" />
       <workItem from="1513608220277" duration="23000" />
-      <workItem from="1513631586476" duration="7341000" />
+      <workItem from="1513631586476" duration="7355000" />
     </task>
     <task id="LOCAL-00001" summary="i added //hey">
       <created>1511887801252</created>
@@ -557,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513632676374</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="I changed some code, and got the alphabetized list working.">
+      <created>1513650375797</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1513650375798</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41708000" />
+    <option name="totallyTimeSpent" value="41722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
